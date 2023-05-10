@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Suchinton Blogs</title>
-    <link>https://suchinton.github.io/</link>
-    <description>Recent content in About on Suchinton Blogs</description>
+    <title>Articles on Suchinton Blogs</title>
+    <link>https://suchinton.github.io/articles/</link>
+    <description>Recent content in Articles on Suchinton Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Theme Installation</title>
       <link>https://suchinton.github.io/articles/installation/</link>

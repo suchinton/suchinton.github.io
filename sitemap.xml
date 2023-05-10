@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://suchinton.github.io/categories/</loc>
+    <loc>https://suchinton.github.io/articles/installation/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://suchinton.github.io/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suchinton.github.io/articles/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://suchinton.github.io/categories/</loc>
   </url><url>
     <loc>https://suchinton.github.io/tags/</loc>
   </url>

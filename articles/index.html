@@ -8,7 +8,7 @@
   <link rel="icon" href="/favicon.ico">
 
   <title>
-    About - Suchinton Blogs
+    Articles - Suchinton Blogs
   </title>
 
   <meta name="description" content="My Digital Garden on the Internet" /><meta name="generator" content="Hugo 0.92.2" />
@@ -18,24 +18,24 @@
   
   
 
-  <meta property="og:title" content="About" />
+  <meta property="og:title" content="Articles" />
 <meta property="og:description" content="My Digital Garden on the Internet" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://suchinton.github.io/" /><meta property="og:image" content="https://suchinton.github.io/digital-garden-logo.png"/>
+<meta property="og:url" content="https://suchinton.github.io/articles/" /><meta property="og:image" content="https://suchinton.github.io/digital-garden-logo.png"/>
 
 
 
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://suchinton.github.io/digital-garden-logo.png"/>
 
-<meta name="twitter:title" content="About"/>
+<meta name="twitter:title" content="Articles"/>
 <meta name="twitter:description" content="My Digital Garden on the Internet"/>
 
 
-  <meta itemprop="name" content="About">
+  <meta itemprop="name" content="Articles">
 <meta itemprop="description" content="My Digital Garden on the Internet">
 
-  <meta itemprop="name" content="About">
+  <meta itemprop="name" content="Articles">
 <meta itemprop="description" content="My Digital Garden on the Internet">
 </head><body class="flex relative h-full min-h-screen"><aside
   class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:basis-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar flex-shrink-0">
@@ -63,7 +63,7 @@
   <ul class="list-none flex flex-col gap-1">
     
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/" >
         <span>Home</span>
         
@@ -79,7 +79,7 @@
     </li>
     
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
         href="/articles" >
         <span>Articles</span>
         
@@ -210,17 +210,61 @@
 </svg></button>
 
 
-<main class="h-screen overflow-y-auto w-full">
-  <div class="px-6 py-20 w-full lg:w-[580px] mx-auto prose dark:prose-invert h-fit prose-img:mx-auto">
-    <h1 id="hello-there-">Hello there 👋</h1>
-<p><strong>Welcome to my Blog Post Website!</strong></p>
-<p>I am thrilled to have you here and excited to share my journey with you. My name is Suchinton Chakravarty, and I am a participant of the Google Summer of Code 2023 program.</p>
-<p>Throughout the next few months, I will be working on a <a href="https://docs.google.com/document/d/11OmvODP7dm9vrl1BYE7_ozr2PlSqGJz0HKZz2WtYFQc/edit?usp=sharing"  target="_blank" rel="noopener" >Qt5 Application to Visualize/ Simulate CAN bus traffic using Kuksa.val</a> with Automotive Grade Linux (<a href="https://www.automotivelinux.org/"  target="_blank" rel="noopener" >AGL</a>), a project hosted by <a href="https://www.linuxfoundation.org/projects"  target="_blank" rel="noopener" >The Linux Foundation</a>. AGL is a collaborative open-source project that aims to build a fully functional automotive platform that can serve as the de facto standard for the industry.</p>
-<p>I cannot wait to share my progress with you. By reading my weekly blog posts, you can follow along with me as I tackle the challenges and triumphs that come with GSoC.</p>
-<p>Thank you for stopping by and I look forward to sharing my progress with you!</p>
+<div class="flex flex-1 h-screen relative w-full min-w-0">
 
-  </div>
-</main>
+  <section
+    class="w-full h-full md:min-w-[400px] md:w-1/4 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
+    <a href="https://suchinton.github.io/articles/">
+      <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
+    </a>
+<label class="mb-2 block px-2">
+  <span></span>
+  <input type="text" placeholder="Search articles" class="searchInput bg-white rounded px-2 py-1 w-full border" />
+</label>
+<script>
+  const searchElt = document.querySelector('.searchInput')
+  if (searchElt) {
+    searchElt.addEventListener('input', evt => {
+      const value = evt.target.value || '';
+
+      const articles = document.querySelectorAll('.article')
+      if (!value) {
+        articles.forEach(article => article.classList.remove('hidden'))
+      } else {
+        articles.forEach(article => article.classList.add('hidden'))
+        Array.from(articles).filter(article => {
+          const title = article.querySelector('h3')
+          if (!title) return false;
+
+          return title.textContent.toLowerCase().includes(value.toLowerCase())
+        }).forEach(article => article.classList.remove('hidden'))
+      }
+    })
+  }
+</script>
+<div class="space-y-2.5">
+      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/installation/">
+
+        
+        
+        <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/apvarun/digital-garden-hugo-theme/main/images/digital-garden-logo.png" alt="1. Theme Installation" />
+        
+        <h3 class="text-lg font-semibold mb-0.5">1. Theme Installation</h3>
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          Create a new hugo website or open your existing hugo site.
+Add the theme to your hugo site Use as a git submodule:
+git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Clone the repository (one-off, updating the theme may be harder later):
+git clone https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Setup  Copy package.json, package-lock.json and tailwind.config.js files from the theme/digitalgarden folder to the root folder of your the website Run npm install to install required packages for theme Run npm i -g postcss-cli to use PostCSS with Hugo build Set theme = 'digitalgarden' in config.
+        </div>
+      </a>
+      </div>
+  </section>
+
+  <main class="hidden md:grid h-screen place-items-center flex-1">
+    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
+  </main>
+
+</div>
 
 
   

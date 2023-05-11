@@ -8,35 +8,53 @@
   <link rel="icon" href="/favicon.ico">
 
   <title>
-    Articles - Personal Digital Garden
+    6. Google Analytics - Personal Digital Garden
   </title>
 
-  <meta name="description" content="My Digital Garden on the Internet" /><meta name="generator" content="Hugo 0.92.2" />
+  <meta name="description" content="Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
+Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
+Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags" /><meta name="generator" content="Hugo 0.92.2" />
 
   <link rel="stylesheet" href="/css/main.css" />
 
   
   
 
-  <meta property="og:title" content="Articles" />
-<meta property="og:description" content="My Digital Garden on the Internet" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/articles/" /><meta property="og:image" content="/digital-garden-logo.png"/>
+  <meta property="og:title" content="6. Google Analytics" />
+<meta property="og:description" content="Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
+Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
+Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/articles/google-analytics/" /><meta property="og:image" content="/digital-garden-logo.png"/><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2021-12-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-12-18T00:00:00+00:00" />
 
 
 
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/digital-garden-logo.png"/>
 
-<meta name="twitter:title" content="Articles"/>
-<meta name="twitter:description" content="My Digital Garden on the Internet"/>
+<meta name="twitter:title" content="6. Google Analytics"/>
+<meta name="twitter:description" content="Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
+Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
+Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags"/>
 
 
-  <meta itemprop="name" content="Articles">
-<meta itemprop="description" content="My Digital Garden on the Internet">
+  <meta itemprop="name" content="6. Google Analytics">
+<meta itemprop="description" content="Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
+Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
+Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags"><meta itemprop="datePublished" content="2021-12-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-12-18T00:00:00+00:00" />
+<meta itemprop="wordCount" content="48"><meta itemprop="image" content="/digital-garden-logo.png"/>
+<meta itemprop="keywords" content="" />
 
-  <meta itemprop="name" content="Articles">
-<meta itemprop="description" content="My Digital Garden on the Internet">
+  <meta itemprop="name" content="6. Google Analytics">
+<meta itemprop="description" content="Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
+Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
+Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags"><meta itemprop="datePublished" content="2021-12-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-12-18T00:00:00+00:00" />
+<meta itemprop="wordCount" content="48"><meta itemprop="image" content="/digital-garden-logo.png"/>
+<meta itemprop="keywords" content="" />
 </head><body class="flex relative h-full min-h-screen"><aside
 class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
 <p class="font-bold mb-5 flex items-center gap-2">
@@ -79,7 +97,7 @@ class="will-change-transform transform transition-transform -translate-x-full ab
     </li>
     
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/articles" >
         <span>Articles</span>
         
@@ -227,11 +245,18 @@ class="will-change-transform transform transition-transform -translate-x-full ab
 </svg></button>
 <div class="flex-1">
 
+
+
+
+
 <div class="flex h-screen relative">
 
   <section
-  class="w-full h-full md:min-w-[400px] md:w-1/4 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col py-3 overflow-y-auto scroll-area">
-  <a href="/articles/">
+    class="will-change-transform transform transition-transform -translate-x-[200%] absolute top-0 left-0 lg:relative
+    lg:translate-x-0 lg:min-w-[400px] lg:w-1/4 h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area">
+    
+    
+    <a href="/articles/">
       <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
     </a>
 <label class="mb-2 block px-2">
@@ -260,59 +285,69 @@ class="will-change-transform transform transition-transform -translate-x-full ab
   }
 </script>
 <div class="space-y-2.5">
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/installation/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/installation/">
         
         
         <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/apvarun/digital-garden-hugo-theme/main/images/digital-garden-logo.png" alt="1. Theme Installation" />
         
         <h3 class="text-lg font-semibold mb-0.5">1. Theme Installation</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           Create a new hugo website or open your existing hugo site.
 Add the theme to your hugo site Use as a git submodule:
 git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Clone the repository (one-off, updating the theme may be harder later):
 git clone https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Setup  Copy package.json, package-lock.json and tailwind.config.js files from the theme/digitalgarden folder to the root folder of your the website Run npm install to install required packages for theme Run npm i -g postcss-cli to use PostCSS with Hugo build Set theme = 'digitalgarden' in config.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/structure/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/structure/">
         
         
         <h3 class="text-lg font-semibold mb-0.5">2. Structure</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           Understand the structure of the theme&rsquo;s setup to create content for your website.
 Theme&rsquo;s content structure . ├── ... ├── content # Hosts all Markdown content │ ├── articles # Contains the list of markdown files for notes/posts │ │ ├── article-1.md │ │ ├── article-2.md │ │ └── article-3.md │ └── portfolio # List of portfolio projects or case studies │ ├── project-1.md │ └── project-2.md ├── data # Test files (alternatively `spec` or `tests`) │ └── stack.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/primary-menu/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/primary-menu/">
         
         
         <h3 class="text-lg font-semibold mb-0.5">3. Primary Menu</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           The sidebar of the theme uses the main menu. Add all the items for your sidebar navigation in this menu.
 // config.toml
 [menu] [[menu.main]] name = &#39;Home&#39; url = &#39;/&#39; weight = 1 [[menu.main]] name = &#39;Content&#39; params.header = true weight = 2 [[menu.main]] name = &#39;Articles&#39; url = &#39;/articles&#39; weight = 3  name → Title of the menu item url → Path to navigate weight → Used to decide the order of menu items params.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/social-menu/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/social-menu/">
         
         
         <h3 class="text-lg font-semibold mb-0.5">4. Social Menu</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           The social menu can be used to configure all the social icons in the sidebar. Add links to your social media in the website config to show the icons.
 [[menu.social]] name = &#39;Twitter&#39; url = &#39;https://twitter.com&#39; weight = 1 The name of the social menu needs to be unique and should be one of the supported values.
 Supported values for the social menu item name:
  Twitter GitHub LinkedIn Instagram Mastodon Dribbble Codepen Twitch Email RSS  → Configure newsletter
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/newsletter/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/newsletter/">
         
         
         <h3 class="text-lg font-semibold mb-0.5">5. Newsletter</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           The theme supports a subscription to multiple newsletter providers.
  Buttondown Substack Revue  Buttondown [Params.newsletter.provider] = &ldquo;buttondown&rdquo;
 Copy the action url from your buttondown admin dashboard and add it to [Params.newsletter.path] in config.toml
@@ -321,34 +356,59 @@ Setting up substack is the easiest. Just add your substack newsletter URL (appli
 Note that since substack doesn&rsquo;t have a native API for subscription. The theme uses the api from substackapi.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/google-analytics/">
-
+      
+      <a class="article block px-3 py-4  bg-slate-900 dark:bg-slate-700 text-slate-50 "
+        href="/articles/google-analytics/">
         
         
         <h3 class="text-lg font-semibold mb-0.5">6. Google Analytics</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-400  line-clamp-2">
           Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
 Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
 Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/metatags/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/metatags/">
         
         
         <h3 class="text-lg font-semibold mb-0.5">7. Metatags</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           Metatags are used to provide additional information about the page, usualy used by search engines and social media websites / apps. It allows to customize your page&rsquo;s title, description, preview image and more.
 Configure default tags // config.toml
 title = &#34;Personal Digital Garden&#34; [Params] description = &#34;My Digital Garden on the Internet&#34; images = [&#39;/digital-garden-logo.png&#39;] Setting the above values will be used as default for all pages unless its overridden in a specific page&rsquo;s markdown.
         </div>
       </a>
       </div>
-  </section>
+    </section>
 
-  <main class="hidden md:grid h-screen place-items-center flex-1">
-    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
-  </main>
+  <div class="overflow-y-auto h-screen w-full">
+    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
+
+      
+      <h1 class="!mb-2">6. Google Analytics</h1>
+
+	  
+      <p class="text-sm text-slate-500 !mb-8"> Planted December 18, 2021
+		
+	  </p>
+      
+
+      
+
+      <p>Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.</p>
+<p>Add your <strong>UA-PROPERTY_ID</strong> or <strong>G-MEASUREMENT_ID</strong> to config.toml</p>
+<h4 id="google-analytics-v3-analyticsjs">Google Analytics v3 (analytics.js)</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">googleAnalytics = <span style="color:#f1fa8c">&#39;UA-PROPERTY_ID&#39;</span>
+</code></pre></div><h4 id="google-analytics-v4-gtagjs">Google Analytics v4 (gtag.js)</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">googleAnalytics = <span style="color:#f1fa8c">&#39;G-MEASUREMENT_ID&#39;</span>
+</code></pre></div><p>→ <a href="/articles/metatags" >Configure Metatags</a></p>
+
+    </article>
+  </div>
 
 </div>
 

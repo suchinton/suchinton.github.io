@@ -14,7 +14,7 @@
       
       <guid>https://suchinton.github.io/portfolio/fossee/</guid>
       <description>What is FOSSEE? FOSSEE is a project developed at IIT Bombay that promotes the use of FLOSS tools in academia and research. The project is funded by the National Mission on Education through ICT, Ministry of Education, Government of India. FOSSEE supports various FLOSS tools such as Scilab, Python, eSim, OpenFOAM, DWSIM, R, OpenModelica and more.
-My wrok   Flatpak_Test_App (FOSSEE_Installer_Test): A proof of concept application, implemented using Qt5 and Flatpak Sandboxing.</description>
+My work   Flatpak_Test_App (FOSSEE_Installer_Test): A proof of concept application, implemented using Qt5 and Flatpak Sandboxing.</description>
     </item>
     
   </channel>

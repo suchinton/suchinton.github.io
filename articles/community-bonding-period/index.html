@@ -541,7 +541,7 @@ VERBOSE: VssDatabase::getMetaData: VSS specific <span style="color:#8be9fd;font-
 VERBOSE: Receive action: <span style="color:#8be9fd;font-style:italic">set</span>
 VERBOSE: Set request with id 675a0cf6-fd12-47f3-8dd4-36ddf4b951bd <span style="color:#ff79c6">for</span> path: Vehicle.Speed with attribute: value
 VERBOSE: SubscriptionHandler::publishForVSSPath: <span style="color:#8be9fd;font-style:italic">set</span> value 12.0 <span style="color:#ff79c6">for</span> path Vehicle.Speed
-</code></pre></div><p>Yay!</p>
+</code></pre></div><p><em>Yay!</em></p>
 <p>So, we&rsquo;re able to connect to the server and send the necessary signals from the host. But this is only a working solution as none of the AGL demo apps listen on this specific ip <code>10.10.10.204</code> for kuksa updates.</p>
 <h2 id="what-next">What Next?</h2>
 <p>During the Weekly GSoC and Dev meetings of AGL, <a href="mailto:smurray@konsulko.com" >Scott Murray</a> pointed out that soon AGL will be moving to <a href="https://github.com/eclipse/kuksa.val/tree/master/kuksa_databroker"  target="_blank" rel="noopener" >Kuksa-databroker</a> (written in RUST) from the currently used <a href="https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server"  target="_blank" rel="noopener" >Kuksa-val-sever</a>. This should not affect my implementation as Kuksa-client works with both ( using Web-sockets &amp; GRPC). This will give us the window to update our implementation and come to a working solution by the time the coding period starts.</p>
@@ -557,7 +557,7 @@ VERBOSE: SubscriptionHandler::publishForVSSPath: <span style="color:#8be9fd;font
 <li><a href="https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server"  target="_blank" rel="noopener" >https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server</a></li>
 <li><a href="https://github.com/eclipse/kuksa.val/tree/master/kuksa-client"  target="_blank" rel="noopener" >https://github.com/eclipse/kuksa.val/tree/master/kuksa-client</a></li>
 </ul>
-<p><a href="Week_1.md" >Week 1 Report →</a></p>
+<p><a href="/articles/Week_1" >Week 1 Report →</a></p>
 
     </article>
   </div>

@@ -6,14 +6,23 @@
     <description>Recent content in GSoC &#39;23 Blog on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 1 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week_1/</link>
+      <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week_1/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  Communication with Kuksa.val Skeleton code for GUI using PyQt5 Navigation widget for IC   What I plan to do next   1) Communication With Kuksa.val Continuing with the progress made last week regarding communication with Kuksa-val-server using a bridged network, I tried to enable IP routing to make the traffic at 10.10.10.204 also accessible at localhost 127.</description>
+    </item>
+    
     <item>
       <title>GSoC Community Bonding Period</title>
       <link>https://suchinton.github.io/articles/community-bonding-period/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/articles/community-bonding-period/</guid>
-      <description># Topics to be covered in this post  What is the Community bonding period? What I did the past month Challenges faced Community interactions What I plan to do next   What is GSoC and what have I been up to during the CBP? Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005.</description>
+      <description># Topics To Be Covered In This Post  What is the Community bonding period? What I did the past month Challenges faced Community interactions What I plan to do next   What is GSoC &amp;amp; What Have I Been Up To During The CBP? Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005.</description>
     </item>
     
   </channel>

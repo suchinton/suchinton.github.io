@@ -41,13 +41,13 @@
   <meta itemprop="name" content="Week 1 Progress Report">
 <meta itemprop="description" content="# Topics To Be Covered In This Post  What I did this week  Communication with Kuksa.val Skeleton code for GUI using PyQt5 Navigation widget for IC   What I plan to do next   1) Communication With Kuksa.val Continuing with the progress made last week regarding communication with Kuksa-val-server using a bridged network, I tried to enable IP routing to make the traffic at 10.10.10.204 also accessible at localhost 127."><meta itemprop="datePublished" content="2023-06-03T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-06-03T00:00:00+00:00" />
-<meta itemprop="wordCount" content="610"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/GSOC Report IMG.png">
+<meta itemprop="wordCount" content="615"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/GSOC Report IMG.png">
 <meta itemprop="keywords" content="" />
 
   <meta itemprop="name" content="Week 1 Progress Report">
 <meta itemprop="description" content="# Topics To Be Covered In This Post  What I did this week  Communication with Kuksa.val Skeleton code for GUI using PyQt5 Navigation widget for IC   What I plan to do next   1) Communication With Kuksa.val Continuing with the progress made last week regarding communication with Kuksa-val-server using a bridged network, I tried to enable IP routing to make the traffic at 10.10.10.204 also accessible at localhost 127."><meta itemprop="datePublished" content="2023-06-03T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-06-03T00:00:00+00:00" />
-<meta itemprop="wordCount" content="610"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/GSOC Report IMG.png">
+<meta itemprop="wordCount" content="615"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/GSOC Report IMG.png">
 <meta itemprop="keywords" content="" />
 </head><body class="flex relative h-full min-h-screen"><aside
 class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
@@ -379,18 +379,23 @@ config <span style="color:#ff79c6">=</span> {
 <span style="color:#ff79c6">.</span>
 </code></pre></div><h3 id="running-agl-image-">Running AGL Image :</h3>
 <p>We then run the QEMU instance the same as before (this time without a VNC viewer).</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo qemu-system-x86_64 -device <span style="color:#f1fa8c">\
-</span><span style="color:#f1fa8c"></span>virtio-net-pci,netdev<span style="color:#ff79c6">=</span>net0,<span style="color:#f1fa8c">\
-</span><span style="color:#f1fa8c"></span><span style="color:#8be9fd;font-style:italic">mac</span><span style="color:#ff79c6">=</span>52:54:00:12:35:02 -netdev bridge,br<span style="color:#ff79c6">=</span>br0,id<span style="color:#ff79c6">=</span>net0 -drive <span style="color:#f1fa8c">\
-</span><span style="color:#f1fa8c"></span><span style="color:#8be9fd;font-style:italic">file</span><span style="color:#ff79c6">=</span>agl-cluster-demo-platform-flutter-qemux86-64.ext4 <span style="color:#f1fa8c">\
-</span><span style="color:#f1fa8c"></span>,if<span style="color:#ff79c6">=</span>virtio,format<span style="color:#ff79c6">=</span>raw -usb -usbdevice tablet -device <span style="color:#f1fa8c">\
-</span><span style="color:#f1fa8c"></span>virtio-rng-pci -snapshot -vga virtio -soundhw hda <span style="color:#f1fa8c">\
-</span><span style="color:#f1fa8c"></span>-machine q35 -cpu kvm64 -cpu qemu64,+ssse3,+sse4.1,+sse4.2,+popcnt -enable-kvm -m <span style="color:#bd93f9">2048</span> <span style="color:#f1fa8c">\
-</span><span style="color:#f1fa8c"></span>-serial mon:vc -serial mon:stdio -serial null <span style="color:#f1fa8c">\
-</span><span style="color:#f1fa8c"></span>-kernel bzImage -append <span style="color:#f1fa8c">&#39;root=/dev/vda rw console=tty0 \
-</span><span style="color:#f1fa8c">mem=2048M ip=dhcp oprofile.timer=1 console=ttyS0,115200n8 verbose fstab=no&#39;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo qemu-system-x86_64 -device virtio-net-pci,<span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span><span style="color:#8be9fd;font-style:italic">netdev</span><span style="color:#ff79c6">=</span>net0, <span style="color:#8be9fd;font-style:italic">mac</span><span style="color:#ff79c6">=</span>52:54:00:12:35:02 -netdev <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>bridge,br<span style="color:#ff79c6">=</span>br0,id<span style="color:#ff79c6">=</span>net0 -drive <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span><span style="color:#8be9fd;font-style:italic">file</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>agl-cluster-demo-platform-flutter-qemux86-64.ext4 <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>,if<span style="color:#ff79c6">=</span>virtio,format<span style="color:#ff79c6">=</span>raw -usb -usbdevice tablet <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>-device virtio-rng-pci -snapshot -vga virtio <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>-soundhw hda -machine q35 -cpu kvm64 <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>-cpu qemu64,+ssse3,+sse4.1,+sse4.2,+popcnt <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>-enable-kvm -m <span style="color:#bd93f9">2048</span> -serial mon:vc -serial <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>mon:stdio -serial null -kernel bzImage -append <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span><span style="color:#f1fa8c">&#39;root=/dev/vda rw console=tty0 mem=2048M \
+</span><span style="color:#f1fa8c">ip=dhcpoprofile.timer=1 console=ttyS0,115200n8 \
+</span><span style="color:#f1fa8c">verbose fstab=no&#39;</span>
 </code></pre></div><h3 id="running-kuksa-val-server-in-qemu">Running Kuksa-val-server in QEMU:</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kuksa-val-server --address 0.0.0.0 --insecure --log-level VERBOSE
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kuksa-val-server --address 0.0.0.0 --insecure <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>--log-level VERBOSE
 </code></pre></div><h3 id="host-machine-command-for-kuksa-client">Host Machine Command For Kuksa-client:</h3>
 <p>To verify and establish a connection with Kuksa-val-server running inside the QEMU instance, I made the <a href="" >kuksa-client</a> listen on the VM&rsquo;s public IP address</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#6272a4"># IP is the QEMU instance IP addr</span>

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  
+  <title>
+    Week 2 Progress Report - Suchinton&#39;s Hub 🚀
+  </title>
+
+  <meta name="description" content="# Topics To Be Covered In This Post  What I did this week  Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository   What I plan to do next   # Settings Window This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:
+ Configure Kuksa-client  Custom IP address JWT token path Toggle for Insecure mode   Start/ Reconnect Kuksa-client Display Connection Status  How Does it Work?" /><meta name="generator" content="Hugo 0.92.2" />
+
+  <link rel="stylesheet" href="https://suchinton.github.io/css/main.css" />
+
+  
+  
+
+  <meta property="og:title" content="Week 2 Progress Report" />
+<meta property="og:description" content="# Topics To Be Covered In This Post  What I did this week  Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository   What I plan to do next   # Settings Window This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:
+ Configure Kuksa-client  Custom IP address JWT token path Toggle for Insecure mode   Start/ Reconnect Kuksa-client Display Connection Status  How Does it Work?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://suchinton.github.io/articles/week-2/" /><meta property="og:image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/GSOC Report IMG.png" /><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2023-06-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-06-09T00:00:00+00:00" />
+
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/GSOC Report IMG.png"/>
+
+<meta name="twitter:title" content="Week 2 Progress Report"/>
+<meta name="twitter:description" content="# Topics To Be Covered In This Post  What I did this week  Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository   What I plan to do next   # Settings Window This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:
+ Configure Kuksa-client  Custom IP address JWT token path Toggle for Insecure mode   Start/ Reconnect Kuksa-client Display Connection Status  How Does it Work?"/>
+
+
+  <meta itemprop="name" content="Week 2 Progress Report">
+<meta itemprop="description" content="# Topics To Be Covered In This Post  What I did this week  Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository   What I plan to do next   # Settings Window This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:
+ Configure Kuksa-client  Custom IP address JWT token path Toggle for Insecure mode   Start/ Reconnect Kuksa-client Display Connection Status  How Does it Work?"><meta itemprop="datePublished" content="2023-06-09T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-06-09T00:00:00+00:00" />
+<meta itemprop="wordCount" content="775"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/GSOC Report IMG.png">
+<meta itemprop="keywords" content="" />
+
+  <meta itemprop="name" content="Week 2 Progress Report">
+<meta itemprop="description" content="# Topics To Be Covered In This Post  What I did this week  Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository   What I plan to do next   # Settings Window This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:
+ Configure Kuksa-client  Custom IP address JWT token path Toggle for Insecure mode   Start/ Reconnect Kuksa-client Display Connection Status  How Does it Work?"><meta itemprop="datePublished" content="2023-06-09T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-06-09T00:00:00+00:00" />
+<meta itemprop="wordCount" content="775"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/GSOC Report IMG.png">
+<meta itemprop="keywords" content="" />
+</head><body class="flex relative h-full min-h-screen"><aside
+class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
+<p class="font-bold mb-5 flex items-center gap-2">
+    <button aria-label="Close sidebar"
+      class="md:hidden menu-trigger-close p-1 rounded text-slate-800 dark:text-slate-50 hover:bg-slate-200 dark:hover:bg-slate-700"><svg class="h-6 w-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+  fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" />
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+</svg></button>
+    <a href="https://suchinton.github.io/" class="px-2">
+      <span>Suchinton&#39;s Hub 🚀</span>
+    </a>
+    <button aria-label="Toggle dark mode"
+      class="dark-mode-toggle p-2 rounded border dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700"><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+  fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" />
+  <circle cx="12" cy="12" r="4" />
+  <path d="M3 12h1M12 3v1M20 12h1M12 20v1M5.6 5.6l.7 .7M18.4 5.6l-.7 .7M17.7 17.7l.7 .7M6.3 17.7l-.7 .7" />
+</svg></button>
+  </p>
+
+  
+  <ul class="list-none flex flex-col gap-1">
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/" >
+        <span>Home</span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  text-slate-400 font-semibold pb-0 pl-1 border-b cursor-default pointer-events-none "
+        href="#" >
+        <span>Content</span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/about" >
+        <span>About</span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles" >
+        <span>GSoC &#39;23 Blog</span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/portfolio" >
+        <span>Portfolio</span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  text-slate-400 font-semibold pb-0 pl-1 border-b cursor-default pointer-events-none "
+        href="#" >
+        <span>GSoC links</span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="https://drive.google.com/file/d/1KM2ecIOdOfODWEzUHujxUlFb_73a9f91/view?usp=share_link"  target="_blank"
+        rel="noopener" >
+        <span>Acceptance Letter</span>
+        
+        <span><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+  fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" />
+  <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+  <line x1="10" y1="14" x2="20" y2="4" />
+  <polyline points="15 4 20 4 20 9" />
+</svg></span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="https://drive.google.com/file/d/1vix6iTDAy-HU---iU0tdi86pUtZtE-_t/view?usp=sharing"  target="_blank"
+        rel="noopener" >
+        <span>Proposal</span>
+        
+        <span><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+  fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" />
+  <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+  <line x1="10" y1="14" x2="20" y2="4" />
+  <polyline points="15 4 20 4 20 9" />
+</svg></span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="#" >
+        <span>🚧 Project</span>
+        
+      </a>
+    </li>
+    
+  </ul>
+
+  <div class="flex-1"></div>
+
+  
+
+  <ul class="list-none flex flex-wrap justify-center gap-1 pt-2 border-t border-slate-200 dark:border-slate-600">
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="https://github.com/suchinton" target="_blank" rel="noopener noreferrer">
+        <span class="sr-only">GitHub</span>
+        
+        <span><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+  stroke-linecap="round" stroke-linejoin="round">
+  <path
+    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+</svg></span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="https://www.linkedin.com/in/suchinton-chakravarty-3221a7219/" target="_blank" rel="noopener noreferrer">
+        <span class="sr-only">LinkedIn</span>
+        
+        <span><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+  stroke-linecap="round" stroke-linejoin="round">
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+  <rect x="2" y="9" width="4" height="12" />
+  <circle cx="4" cy="4" r="2" />
+</svg></span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="https://www.instagram.com/suchinton_never_/" target="_blank" rel="noopener noreferrer">
+        <span class="sr-only">Instagram</span>
+        
+        <span><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+  stroke-linecap="round" stroke-linejoin="round">
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+</svg></span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="mailto:suchinton.2001@gmail.com" target="_blank" rel="noopener noreferrer">
+        <span class="sr-only">Email</span>
+        
+        <span><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+  fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" />
+  <rect x="3" y="5" width="18" height="14" rx="2" />
+  <polyline points="3 7 12 13 21 7" />
+</svg></span>
+        
+      </a>
+    </li>
+    
+    <li>
+      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/index.xml" target="_blank" rel="noopener noreferrer">
+        <span class="sr-only">RSS</span>
+        
+        <span><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+  fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" />
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg></span>
+        
+      </a>
+    </li>
+    
+  </ul>
+</aside>
+
+<div
+  class="fixed bg-slate-700 bg-opacity-5 transition duration-200 ease-in-out inset-0 z-10 pointer-events-auto md:hidden left-0 top-0 w-full h-full hidden menu-overlay">
+</div>
+
+<button aria-label="Toggle Sidebar"
+  class="md:hidden absolute top-3 left-3 z-10 menu-trigger p-1 rounded text-slate-800 dark:text-slate-50 hover:bg-slate-100"><svg class="h-6 w-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+  fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" />
+  <line x1="4" y1="6" x2="20" y2="6" />
+  <line x1="4" y1="12" x2="20" y2="12" />
+  <line x1="4" y1="18" x2="16" y2="18" />
+</svg></button>
+<div class="flex-1">
+
+
+
+
+
+<div class="flex h-screen relative">
+
+  <section
+    class="will-change-transform transform transition-transform -translate-x-[200%] absolute top-0 left-0 lg:relative
+    lg:translate-x-0 lg:min-w-[400px] lg:w-1/4 h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area">
+    
+    
+    <a href="https://suchinton.github.io/articles/">
+      <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">GSoC &#39;23 Blog</h2>
+    </a>
+<label class="mb-2 block px-2">
+  <span></span>
+  <input type="text" placeholder="Search articles" class="searchInput bg-white rounded px-2 py-1 w-full border" />
+</label>
+<script>
+  const searchElt = document.querySelector('.searchInput')
+  if (searchElt) {
+    searchElt.addEventListener('input', evt => {
+      const value = evt.target.value || '';
+
+      const articles = document.querySelectorAll('.article')
+      if (!value) {
+        articles.forEach(article => article.classList.remove('hidden'))
+      } else {
+        articles.forEach(article => article.classList.add('hidden'))
+        Array.from(articles).filter(article => {
+          const title = article.querySelector('h3')
+          if (!title) return false;
+
+          return title.textContent.toLowerCase().includes(value.toLowerCase())
+        }).forEach(article => article.classList.remove('hidden'))
+      }
+    })
+  }
+</script>
+<div class="space-y-2.5">
+      
+      <a class="article block px-3 py-4  bg-slate-900 dark:bg-slate-700 text-slate-50 "
+        href="/articles/week-2/">
+        
+        
+        <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/GSOC%20Report%20IMG.png" alt="Week 2 Progress Report" />
+        
+        <h3 class="text-lg font-semibold mb-0.5">Week 2 Progress Report</h3>
+        <div
+          class="text-sm  text-slate-400  line-clamp-2">
+          # Topics To Be Covered In This Post  What I did this week  Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository   What I plan to do next   # Settings Window This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:
+ Configure Kuksa-client  Custom IP address JWT token path Toggle for Insecure mode   Start/ Reconnect Kuksa-client Display Connection Status  How Does it Work?
+        </div>
+      </a>
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/week-1/">
+        
+        
+        <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/GSOC%20Report%20IMG.png" alt="Week 1 Progress Report" />
+        
+        <h3 class="text-lg font-semibold mb-0.5">Week 1 Progress Report</h3>
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
+          # Topics To Be Covered In This Post  What I did this week  Communication with Kuksa.val Skeleton code for GUI using PyQt5 Navigation widget for IC   What I plan to do next   # Communication With Kuksa.val Continuing with the progress made last week regarding communication with Kuksa-val-server using a bridged network, I tried to enable IP routing to make the traffic at 10.10.10.204 also accessible at localhost 127.
+        </div>
+      </a>
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/community-bonding-period/">
+        
+        
+        <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/CBP/CBP.png" alt="GSoC Community Bonding Period" />
+        
+        <h3 class="text-lg font-semibold mb-0.5">GSoC Community Bonding Period</h3>
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
+          # Topics To Be Covered In This Post  What is the Community bonding period? What I did the past month Challenges faced Community interactions What I plan to do next   What is GSoC &amp; What Have I Been Up To During The CBP? Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005.
+        </div>
+      </a>
+      </div>
+    </section>
+
+  <div class="overflow-y-auto h-screen w-full">
+    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
+
+      
+      <h1 class="!mb-2">Week 2 Progress Report</h1>
+	  
+      <p class="text-sm text-slate-500 !mb-8"> Posted June 9, 2023
+		
+	  </p>
+      
+
+      
+      <img class="rounded max-w-full mx-auto mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/GSOC%20Report%20IMG.png" alt="Week 2 Progress Report" />
+      
+
+      <h3 id="-topics-to-be-covered-in-this-post"># Topics To Be Covered In This Post</h3>
+<ul>
+<li>What I did this week
+<ul>
+<li>Implement Settings Window</li>
+<li>Initial support for Kuksa Signals</li>
+<li>Initializing the GitHub Repository</li>
+</ul>
+</li>
+<li>What I plan to do next</li>
+</ul>
+<hr>
+<h2 id="-settings-window"># Settings Window</h2>
+<p>This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:</p>
+<ul>
+<li>Configure Kuksa-client
+<ul>
+<li>Custom IP address</li>
+<li>JWT token path</li>
+<li>Toggle for Insecure mode</li>
+</ul>
+</li>
+<li>Start/ Reconnect Kuksa-client</li>
+<li>Display Connection Status</li>
+</ul>
+<h3 id="how-does-it-work">How Does it Work?</h3>
+<p>We first created a <code>KuksaSingleton</code> module using the <a href="https://www.geeksforgeeks.org/singleton-method-python-design-patterns/"  target="_blank" rel="noopener" >Singleton Design Pattern</a>. The benefits of using the Singleton design pattern are:</p>
+<ul>
+<li><strong>Initialization</strong>: An object created by the Singleton method is initialized only when it is requested for the first time.</li>
+<li><strong>Access to the object</strong>: We get global access to the instance of the object.</li>
+<li><strong>Count of instances</strong>: In singleton, method classes can’t have more than one instance</li>
+</ul>
+<p>This allows us to maintain a single instance of the kuksa-client object, and have access to it globally.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<span style="color:#ff79c6">import</span> kuksa_client <span style="color:#ff79c6">as</span> kuksa
+
+<span style="color:#ff79c6">class</span> <span style="color:#50fa7b">KuksaClientSingleton</span>:
+    __instance <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">None</span>
+
+    @staticmethod
+    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">get_instance</span>():
+        <span style="color:#ff79c6">if</span> KuksaClientSingleton<span style="color:#ff79c6">.</span>__instance <span style="color:#ff79c6">is</span> <span style="color:#ff79c6">None</span>:
+            KuksaClientSingleton()
+        <span style="color:#ff79c6">return</span> KuksaClientSingleton<span style="color:#ff79c6">.</span>__instance
+
+    <span style="color:#ff79c6">def</span> __init__(self):
+        <span style="color:#ff79c6">if</span> KuksaClientSingleton<span style="color:#ff79c6">.</span>__instance <span style="color:#ff79c6">is</span> <span style="color:#ff79c6">not</span> <span style="color:#ff79c6">None</span>:
+            <span style="color:#ff79c6">raise</span> Exception(<span style="color:#f1fa8c">&#34;This class is a singleton!&#34;</span>)
+        <span style="color:#ff79c6">else</span>:
+            self<span style="color:#ff79c6">.</span>default_Config <span style="color:#ff79c6">=</span> {
+                <span style="color:#f1fa8c">&#34;ip&#34;</span>: <span style="color:#f1fa8c">&#39;10.10.10.203&#39;</span>,
+                <span style="color:#f1fa8c">&#34;port&#34;</span>: <span style="color:#f1fa8c">&#34;8090&#34;</span>,
+                <span style="color:#f1fa8c">&#39;protocol&#39;</span>: <span style="color:#f1fa8c">&#39;ws&#39;</span>,
+                <span style="color:#f1fa8c">&#39;insecure&#39;</span>: <span style="color:#ff79c6">True</span>,
+            }
+
+            self<span style="color:#ff79c6">.</span>token <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;/home/suchinton/.local/lib/</span><span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span><span style="color:#f1fa8c">            python3.10/site-</span><span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span><span style="color:#f1fa8c">            packages/kuksa_certificates/jwt/</span><span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span><span style="color:#f1fa8c">            super-admin.json.token&#34;</span>
+
+            <span style="color:#ff79c6">try</span>:
+                self<span style="color:#ff79c6">.</span>client <span style="color:#ff79c6">=</span> kuksa<span style="color:#ff79c6">.</span>KuksaClientThread\
+                (self<span style="color:#ff79c6">.</span>default_Config)
+                self<span style="color:#ff79c6">.</span>client<span style="color:#ff79c6">.</span>authorize(self<span style="color:#ff79c6">.</span>token)
+                self<span style="color:#ff79c6">.</span>client<span style="color:#ff79c6">.</span>start()
+            <span style="color:#ff79c6">except</span> Exception <span style="color:#ff79c6">as</span> e:
+                <span style="color:#8be9fd;font-style:italic">print</span>(e)
+
+            KuksaClientSingleton<span style="color:#ff79c6">.</span>__instance <span style="color:#ff79c6">=</span> self
+
+    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">get_client</span>(self):
+        <span style="color:#ff79c6">return</span> self<span style="color:#ff79c6">.</span>client, self<span style="color:#ff79c6">.</span>default_Config, self<span style="color:#ff79c6">.</span>token
+
+    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">reconnect_client</span>(self, new_Config, new_Token):
+        self<span style="color:#ff79c6">.</span>client<span style="color:#ff79c6">.</span>stop()
+        <span style="color:#8be9fd;font-style:italic">print</span>(self<span style="color:#ff79c6">.</span>client<span style="color:#ff79c6">.</span>checkConnection())
+        self<span style="color:#ff79c6">.</span>client <span style="color:#ff79c6">=</span> kuksa<span style="color:#ff79c6">.</span>KuksaClientThread(new_Config)
+        self<span style="color:#ff79c6">.</span>client<span style="color:#ff79c6">.</span>authorize(new_Token)
+        self<span style="color:#ff79c6">.</span>client<span style="color:#ff79c6">.</span>start()
+
+    <span style="color:#ff79c6">def</span> __del__(self):
+        self<span style="color:#ff79c6">.</span>client<span style="color:#ff79c6">.</span>stop()
+</code></pre></div><p>This implementation allows us to write custom functions such as <code>reconnect_client</code> which helps restart the client with new configurations.</p>
+<p><em>Note</em>: This module will be modified to read and write to a config file which will store the default values and the previous entries.</p>
+<h3 id="accessing-the-kuksa-client-object">Accessing the Kuksa-Client Object</h3>
+<p>As visible in the above code segment, the <code>client</code> object, its <code>default_Config</code> and the default <code>token</code> path can be retrieved using the <code>get_client</code> method in other modules of this application.</p>
+<p>All we need to do to get access to the client instance is add the necessary module as such:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">.</span>
+<span style="color:#ff79c6">.</span>
+<span style="color:#ff79c6">.</span>
+<span style="color:#ff79c6">import</span> sys
+
+current_dir <span style="color:#ff79c6">=</span> os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>dirname(os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>abspath(__file__))
+
+<span style="color:#6272a4"># ========================================</span>
+
+sys<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>append(os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>dirname(current_dir))
+
+<span style="color:#ff79c6">import</span> extras.Kuksa_Instance <span style="color:#ff79c6">as</span> kuksa_instance
+
+<span style="color:#ff79c6">.</span>
+<span style="color:#ff79c6">.</span>
+<span style="color:#ff79c6">.</span>
+</code></pre></div><p>and to create the <code>client</code> object, the following syntax is used:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">self<span style="color:#ff79c6">.</span>kuksa <span style="color:#ff79c6">=</span> kuksa_instance<span style="color:#ff79c6">.</span>KuksaClientSingleton<span style="color:#ff79c6">.</span>get_instance()
+self<span style="color:#ff79c6">.</span>client, self<span style="color:#ff79c6">.</span>config, self<span style="color:#ff79c6">.</span>token <span style="color:#ff79c6">=</span> self<span style="color:#ff79c6">.</span>kuksa<span style="color:#ff79c6">.</span>get_client()
+</code></pre></div><h3 id="settings-window">Settings Window</h3>
+<p>The impedimented settings menu was made keeping certain requirements in mind, such as:</p>
+<ol>
+<li>The client&rsquo;s first instance must be started only via the settings</li>
+<li>The user should be able to restart the client</li>
+<li>The settings menu must allow the user to modify the default config</li>
+<li>It must reflect the status of the connection with Kuksa</li>
+</ol>
+<p><em>Note: The StyleSheet is yet to be updated for the Settings Window</em></p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/settings_demo.gif" height="auto" width="100%" style="border-radius: 10px;">
+</div>
+<h2 id="-kuksa-signals-for-ic-application"># Kuksa Signals for IC Application</h2>
+<p>I also added initial support for the <a href="https://github.com/aakash-s45/ic"  target="_blank" rel="noopener" >IC application</a> by specifying its <a href="https://www.w3.org/auto/wg/wiki/Vehicle_Signal_Specification_%28VSS%29/Vehicle_Data_Spec"  target="_blank" rel="noopener" >VSS</a> paths subscribed by it, this allows us to control the visible widget values and states using dials, buttons and input fields.</p>
+<p>The implementation in the Demo application had some flaws that I was able to overcome this week by  optimizing the slider for a smoother experience. This was done using the following Qt modules:</p>
+<ol>
+<li><strong>QTimer</strong> object to update the values at a fixed interval instead of updating it every time the slider value changes. This reduces the number of requests sent to the server and makes the application more responsive.</li>
+<li><strong>QThread</strong> object to run the timer in a separate thread so that it doesn’t block the main thread and cause the application to freeze.</li>
+</ol>
+<p>As a consequence, the app is more responsive, and also the values fed to kuksa-val-server using this method are continuously updated at defined intervals. Which can help us implement  dedicated scripts for the AGL demo apps in the future.</p>
+<p>The signal paths specified for the application comply with the recently released <a href="https://github.com/eclipse/kuksa.val/releases"  target="_blank" rel="noopener" >VSS 3.1.1. being used by KUKSA.val 0.3.1</a>.</p>
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/IC_controls.gif" height="auto" width="100%" style="border-radius: 10px;">
+</div>
+<p><em>Note</em>: During this week&rsquo;s GSoC meeting, my mentors mentioned that since AGL does not, for the time being, use any navigation APIs, We have decided to make the Navigation Widget (mentioned in last week&rsquo;s report)  an optional module.</p>
+<h2 id="-github-repository"># GitHub Repository</h2>
+<p>This  week I also initialized the GitHub repository for this project, hosting it under the <a href="https://www.apache.org/licenses/LICENSE-2.0"  target="_blank" rel="noopener" >Apache V2</a> License after a discussion regarding the same with my mentors.</p>
+<p>The repository can be accessed using the provided link.</p>
+<p>→   <a href="https://github.com/suchinton/AGL_Demo_Control_Panel"  target="_blank" rel="noopener" >https://github.com/suchinton/AGL_Demo_Control_Panel</a></p>
+<h2 id="-what-next"># What Next?</h2>
+<ul>
+<li>Next week I expect to have complete support for IC</li>
+<li>Add initial support for HVAC</li>
+<li>Finalize the UI/UX with mentors</li>
+<li>Build AGL master branch on remote server</li>
+</ul>
+<hr>
+<h2 id="-references"># References:</h2>
+<ul>
+<li><a href="https://www.w3.org/auto/wg/wiki/Vehicle_Signal_Specification_%28VSS%29/Vehicle_Data_Spec"  target="_blank" rel="noopener" >https://www.w3.org/auto/wg/wiki/Vehicle_Signal_Specification_(VSS)/Vehicle_Data_Spec</a></li>
+<li><a href="https://www.geeksforgeeks.org/singleton-method-python-design-patterns/"  target="_blank" rel="noopener" >https://www.geeksforgeeks.org/singleton-method-python-design-patterns/</a></li>
+<li><a href="https://github.com/eclipse/kuksa.val/blob/d9dc9f808268be91abd13f8751337cece470c96c/kuksa-client/docs/examples/threaded.md"  target="_blank" rel="noopener" >https://github.com/eclipse/kuksa.val/blob/d9dc9f808268be91abd13f8751337cece470c96c/kuksa-client/docs/examples/threaded.md</a></li>
+<li><a href="https://github.com/eclipse/kuksa.val/releases"  target="_blank" rel="noopener" >https://github.com/eclipse/kuksa.val/releases</a></li>
+<li><a href="https://dias-kuksa-doc.readthedocs.io/en/latest/contents/invehicle.html"  target="_blank" rel="noopener" >https://dias-kuksa-doc.readthedocs.io/en/latest/contents/invehicle.html</a></li>
+<li><a href="https://www.apache.org/licenses/LICENSE-2.0"  target="_blank" rel="noopener" >https://www.apache.org/licenses/LICENSE-2.0</a></li>
+</ul>
+<hr>
+<p><a href="" >Week 3 Report →</a> <em><strong>To be updated!</strong></em></p>
+<p><a href="articles/week-1" >← Week 1 Report</a></p>
+
+    </article>
+  </div>
+
+</div>
+
+
+  </div>
+<script type="text/javascript" src="/main.js" defer></script>
+
+
+</body>
+
+</html>

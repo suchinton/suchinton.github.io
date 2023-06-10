@@ -6,14 +6,24 @@
     <description>Recent content in GSoC &#39;23 Blog on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 2 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week-2/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week-2/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository   What I plan to do next   # Settings Window This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:
+ Configure Kuksa-client  Custom IP address JWT token path Toggle for Insecure mode   Start/ Reconnect Kuksa-client Display Connection Status  How Does it Work?</description>
+    </item>
+    
     <item>
       <title>Week 1 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-1/</link>
       <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/articles/week-1/</guid>
-      <description># Topics To Be Covered In This Post  What I did this week  Communication with Kuksa.val Skeleton code for GUI using PyQt5 Navigation widget for IC   What I plan to do next   1) Communication With Kuksa.val Continuing with the progress made last week regarding communication with Kuksa-val-server using a bridged network, I tried to enable IP routing to make the traffic at 10.10.10.204 also accessible at localhost 127.</description>
+      <description># Topics To Be Covered In This Post  What I did this week  Communication with Kuksa.val Skeleton code for GUI using PyQt5 Navigation widget for IC   What I plan to do next   # Communication With Kuksa.val Continuing with the progress made last week regarding communication with Kuksa-val-server using a bridged network, I tried to enable IP routing to make the traffic at 10.10.10.204 also accessible at localhost 127.</description>
     </item>
     
     <item>

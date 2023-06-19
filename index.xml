@@ -6,7 +6,17 @@
     <description>Recent content in Homepage on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 3 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week-3/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week-3/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  Added Settings Window to main Application Completed Support for IC Application Signals Added custom handles for window Uploaded GitHub Readme.md Building AGL-demo-platform Image   What I plan to do next   # AGL-Demo-Control-Panel Added Settings Window to main Application The settings window provides various options to configure the kuksa-client. functionalities are:
+ Start Connection Create Network Bridge Reconnect Refresh Input IP Address Input JWT Token Path for Authorization Display Connection Status  IC Kuksa Signals This week I improved the style sheet for the IC page to better integrate with the application.</description>
+    </item>
+    
     <item>
       <title>Week 2 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-2/</link>

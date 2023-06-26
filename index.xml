@@ -6,11 +6,11 @@
     <description>Recent content in Homepage on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jun 2023 13:43:59 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Week 4</title>
+      <title>Week 4 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-4/</link>
-      <pubDate>Fri, 23 Jun 2023 13:43:59 +0530</pubDate>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/articles/week-4/</guid>
       <description># Topics To Be Covered In This Post  What I did this week  Added HVAC signals, limited to 4 Toggle for Secure and Insecure Mode Added animations for navigation and improved window handles New theme for UI Reading from the config file   What I plan to do next   # HVAC signals This week I started adding signal inputs for the HVAC page, currently only 4 VIS signals are supported as the demo apps have not been patched to support other signals and mostly unresponsive on the Qt5 &amp;amp; Flutter images of AGL.</description>

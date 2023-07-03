@@ -12,35 +12,43 @@
 
   
   <title>
-    GSoC &#39;23 Blog - Suchinton&#39;s Hub 🚀
+    Week 5 Progress Report - Suchinton&#39;s Hub 🚀
   </title>
 
-  <meta name="description" content="Suchinton&#39;s Blog Post Website" /><meta name="generator" content="Hugo 0.92.2" />
+  <meta name="description" content="# Topics To Be Covered In This Post  What I did this week  Refactored the IC Acceleration function IC page script (Toggle) Initialized Steering wheel Signals Controls (Not yet functional) Navigation Page (Revised Style sheet and improved operations   What I plan to do next   # IC Acceleration Button This week I updated the Acceleration button to operate on a Pressed and Released event instead of the previously used Clicked event, this allows us to implement a both Acceleration and Deceliration proportionally for the vehicle&rsquo;s Speed and the Engine RPM." /><meta name="generator" content="Hugo 0.92.2" />
 
   <link rel="stylesheet" href="https://suchinton.github.io/css/main.css" />
 
   
   
 
-  <meta property="og:title" content="GSoC &#39;23 Blog" />
-<meta property="og:description" content="Suchinton&#39;s Blog Post Website" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://suchinton.github.io/articles/" /><meta property="og:image" content="https://suchinton.github.io/digital-garden-logo.png"/>
+  <meta property="og:title" content="Week 5 Progress Report" />
+<meta property="og:description" content="# Topics To Be Covered In This Post  What I did this week  Refactored the IC Acceleration function IC page script (Toggle) Initialized Steering wheel Signals Controls (Not yet functional) Navigation Page (Revised Style sheet and improved operations   What I plan to do next   # IC Acceleration Button This week I updated the Acceleration button to operate on a Pressed and Released event instead of the previously used Clicked event, this allows us to implement a both Acceleration and Deceliration proportionally for the vehicle&rsquo;s Speed and the Engine RPM." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://suchinton.github.io/articles/week-5/" /><meta property="og:image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC Report IMG.png" /><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2023-07-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-07-01T00:00:00+00:00" />
 
 
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://suchinton.github.io/digital-garden-logo.png"/>
+<meta name="twitter:image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC Report IMG.png"/>
 
-<meta name="twitter:title" content="GSoC &#39;23 Blog"/>
-<meta name="twitter:description" content="Suchinton&#39;s Blog Post Website"/>
+<meta name="twitter:title" content="Week 5 Progress Report"/>
+<meta name="twitter:description" content="# Topics To Be Covered In This Post  What I did this week  Refactored the IC Acceleration function IC page script (Toggle) Initialized Steering wheel Signals Controls (Not yet functional) Navigation Page (Revised Style sheet and improved operations   What I plan to do next   # IC Acceleration Button This week I updated the Acceleration button to operate on a Pressed and Released event instead of the previously used Clicked event, this allows us to implement a both Acceleration and Deceliration proportionally for the vehicle&rsquo;s Speed and the Engine RPM."/>
 
 
-  <meta itemprop="name" content="GSoC &#39;23 Blog">
-<meta itemprop="description" content="Suchinton&#39;s Blog Post Website">
+  <meta itemprop="name" content="Week 5 Progress Report">
+<meta itemprop="description" content="# Topics To Be Covered In This Post  What I did this week  Refactored the IC Acceleration function IC page script (Toggle) Initialized Steering wheel Signals Controls (Not yet functional) Navigation Page (Revised Style sheet and improved operations   What I plan to do next   # IC Acceleration Button This week I updated the Acceleration button to operate on a Pressed and Released event instead of the previously used Clicked event, this allows us to implement a both Acceleration and Deceliration proportionally for the vehicle&rsquo;s Speed and the Engine RPM."><meta itemprop="datePublished" content="2023-07-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-07-01T00:00:00+00:00" />
+<meta itemprop="wordCount" content="337"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC Report IMG.png">
+<meta itemprop="keywords" content="" />
 
-  <meta itemprop="name" content="GSoC &#39;23 Blog">
-<meta itemprop="description" content="Suchinton&#39;s Blog Post Website">
+  <meta itemprop="name" content="Week 5 Progress Report">
+<meta itemprop="description" content="# Topics To Be Covered In This Post  What I did this week  Refactored the IC Acceleration function IC page script (Toggle) Initialized Steering wheel Signals Controls (Not yet functional) Navigation Page (Revised Style sheet and improved operations   What I plan to do next   # IC Acceleration Button This week I updated the Acceleration button to operate on a Pressed and Released event instead of the previously used Clicked event, this allows us to implement a both Acceleration and Deceliration proportionally for the vehicle&rsquo;s Speed and the Engine RPM."><meta itemprop="datePublished" content="2023-07-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-07-01T00:00:00+00:00" />
+<meta itemprop="wordCount" content="337"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC Report IMG.png">
+<meta itemprop="keywords" content="" />
 </head><body class="flex relative h-full min-h-screen"><aside
 class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
 <p class="font-bold mb-5 flex items-center gap-2">
@@ -91,7 +99,7 @@ class="will-change-transform transform transition-transform -translate-x-full ab
     </li>
     
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/articles" >
         <span>GSoC &#39;23 Blog</span>
         
@@ -265,11 +273,18 @@ class="will-change-transform transform transition-transform -translate-x-full ab
 </svg></button>
 <div class="flex-1">
 
+
+
+
+
 <div class="flex h-screen relative">
 
   <section
-  class="w-full h-full md:min-w-[400px] md:w-1/4 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col py-3 overflow-y-auto scroll-area">
-  <a href="https://suchinton.github.io/articles/">
+    class="will-change-transform transform transition-transform -translate-x-[200%] absolute top-0 left-0 lg:relative
+    lg:translate-x-0 lg:min-w-[400px] lg:w-1/4 h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area">
+    
+    
+    <a href="https://suchinton.github.io/articles/">
       <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">GSoC &#39;23 Blog</h2>
     </a>
 <label class="mb-2 block px-2">
@@ -298,80 +313,166 @@ class="will-change-transform transform transition-transform -translate-x-full ab
   }
 </script>
 <div class="space-y-2.5">
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/week-5/">
-
+      
+      <a class="article block px-3 py-4  bg-slate-900 dark:bg-slate-700 text-slate-50 "
+        href="/articles/week-5/">
         
         
         <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC%20Report%20IMG.png" alt="Week 5 Progress Report" />
         
         <h3 class="text-lg font-semibold mb-0.5">Week 5 Progress Report</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-400  line-clamp-2">
           # Topics To Be Covered In This Post  What I did this week  Refactored the IC Acceleration function IC page script (Toggle) Initialized Steering wheel Signals Controls (Not yet functional) Navigation Page (Revised Style sheet and improved operations   What I plan to do next   # IC Acceleration Button This week I updated the Acceleration button to operate on a Pressed and Released event instead of the previously used Clicked event, this allows us to implement a both Acceleration and Deceliration proportionally for the vehicle&rsquo;s Speed and the Engine RPM.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/week-4/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/week-4/">
         
         
         <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC%20Report%20IMG.png" alt="Week 4 Progress Report" />
         
         <h3 class="text-lg font-semibold mb-0.5">Week 4 Progress Report</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           # Topics To Be Covered In This Post  What I did this week  Added HVAC signals, limited to 4 Toggle for Secure and Insecure Mode Added animations for navigation and improved window handles New theme for UI Reading from the config file   What I plan to do next   # HVAC signals This week I started adding signal inputs for the HVAC page, currently only 4 VIS signals are supported as the demo apps have not been patched to support other signals and mostly unresponsive on the Qt5 &amp; Flutter images of AGL.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/week-3/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/week-3/">
         
         
         <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week3/GSOC%20Report%20IMG.png" alt="Week 3 Progress Report" />
         
         <h3 class="text-lg font-semibold mb-0.5">Week 3 Progress Report</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           # Topics To Be Covered In This Post  What I did this week  Added Settings Window to main Application Completed Support for IC Application Signals Added custom handles for window Uploaded GitHub Readme.md Building AGL-demo-platform Image   What I plan to do next   # AGL-Demo-Control-Panel Added Settings Window to main Application The settings window provides various options to configure the kuksa-client. functionalities are:
  Start Connection Create Network Bridge Reconnect Refresh Input IP Address Input JWT Token Path for Authorization Display Connection Status  IC Kuksa Signals This week I improved the style sheet for the IC page to better integrate with the application.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/week-2/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/week-2/">
         
         
         <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/GSOC%20Report%20IMG.png" alt="Week 2 Progress Report" />
         
         <h3 class="text-lg font-semibold mb-0.5">Week 2 Progress Report</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           # Topics To Be Covered In This Post  What I did this week  Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository   What I plan to do next   # Settings Window This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:
  Configure Kuksa-client  Custom IP address JWT token path Toggle for Insecure mode   Start/ Reconnect Kuksa-client Display Connection Status  How Does it Work?
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/week-1/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/week-1/">
         
         
         <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/GSOC%20Report%20IMG.png" alt="Week 1 Progress Report" />
         
         <h3 class="text-lg font-semibold mb-0.5">Week 1 Progress Report</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           # Topics To Be Covered In This Post  What I did this week  Communication with Kuksa.val Skeleton code for GUI using PyQt5 Navigation widget for IC   What I plan to do next   # Communication With Kuksa.val Continuing with the progress made last week regarding communication with Kuksa-val-server using a bridged network, I tried to enable IP routing to make the traffic at 10.10.10.204 also accessible at localhost 127.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/community-bonding-period/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/community-bonding-period/">
         
         
         <img class="rounded max-w-full mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/CBP/CBP.png" alt="GSoC Community Bonding Period" />
         
         <h3 class="text-lg font-semibold mb-0.5">GSoC Community Bonding Period</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           # Topics To Be Covered In This Post  What is the Community bonding period? What I did the past month Challenges faced Community interactions What I plan to do next   What is GSoC &amp; What Have I Been Up To During The CBP? Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005.
         </div>
       </a>
       </div>
-  </section>
+    </section>
 
-  <main class="hidden md:grid h-screen place-items-center flex-1">
-    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
-  </main>
+  <div class="overflow-y-auto h-screen w-full">
+    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
+
+      
+      <h1 class="!mb-2">Week 5 Progress Report</h1>
+	  
+      <p class="text-sm text-slate-500 !mb-8"> Posted July 1, 2023
+		
+	  </p>
+      
+
+      
+      <img class="rounded max-w-full mx-auto mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC%20Report%20IMG.png" alt="Week 5 Progress Report" />
+      
+
+      <h3 id="-topics-to-be-covered-in-this-post"># Topics To Be Covered In This Post</h3>
+<ul>
+<li>What I did this week
+<ul>
+<li>Refactored the IC Acceleration function</li>
+<li>IC page script (Toggle)</li>
+<li>Initialized Steering wheel Signals Controls (Not yet functional)</li>
+<li>Navigation Page (Revised Style sheet and improved operations</li>
+</ul>
+</li>
+<li>What I plan to do next</li>
+</ul>
+<hr>
+<h2 id="-ic-acceleration-button"># IC Acceleration Button</h2>
+<p>This week I updated the Acceleration button to operate on a <code>Pressed</code> and <code>Released</code> event instead of the previously used <code>Clicked</code> event, this allows us to implement a both <code>Acceleration</code> and <code>Deceliration</code> proportionally  for the vehicle&rsquo;s <strong>Speed</strong> and the <strong>Engine RPM</strong>.</p>
+<p>Triggers for this operation can be done by the following inputs:</p>
+<ul>
+<li>Touch &amp; Hold (On a touch friendly device)</li>
+<li>Click and hold</li>
+<li>Space bar (Can be mapped to a different key as well)</li>
+</ul>
+<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week5/Demo_Acc.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
+</video>
+<h2 id="-script-mode"># Script Mode</h2>
+<p>I also started work on the Script mode which feeds relevant values to the demo applications when a user is not interacting with the <a href="https://github.com/suchinton/AGL_Demo_Control_Panel"  target="_blank" rel="noopener" >AGL_Demo_Control_Panel</a>.</p>
+<p>Next week, I will extensively work on this to present exciting sequences not just for the demo apps but also the control panel itself.</p>
+<h2 id="-steering-wheel-controls"># Steering Wheel Controls</h2>
+<p>This week also saw inclusion of dummy inputs for the Steering Wheel Controls, i.e.:</p>
+<ul>
+<li>Volume Up</li>
+<li>Volume Down</li>
+<li>Next Track</li>
+<li>Prev Track</li>
+<li>Stop/ Play</li>
+<li>Accept Call/ Decline Call</li>
+</ul>
+<p>These Buttons are yet to assigned any actions and are highly subjective to change after a discussion with my mentors but it serves to showcase the various operations the control panel can provide.</p>
+<h2 id="-navigation-page"># Navigation Page</h2>
+<p>The Navigation Page was revisited to improve its usability and operations, It can now provide recommendations for <code>Source</code> and  <code>Destination</code> addresses for navigation, live as they are being typed.</p>
+<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week5/Demo_Nav.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
+</video>
+<hr>
+<h2 id="-what-next"># What Next?</h2>
+<ul>
+<li>Make Kuksa Subscription Scripts to view the changes being made. Since not all demo applications subscribe to their corresponding VSS signals.</li>
+<li>Introduce some better error handling for when the server is not connected or found on the specified Ip address.</li>
+<li>Improve GitHub README and documentation</li>
+</ul>
+<hr>
+<h2 id="-references"># References:</h2>
+<ul>
+<li><a href="https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server"  target="_blank" rel="noopener" >https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server</a></li>
+<li><a href="https://github.com/hritik-chouhan/HVAC_dashboard"  target="_blank" rel="noopener" >https://github.com/hritik-chouhan/HVAC_dashboard</a></li>
+<li><a href="https://stackoverflow.com/questions/59186106/qss-border-radius-problem-on-widget-when-zooming-in"  target="_blank" rel="noopener" >Stackoverflow: qss-border-radius-problem</a></li>
+<li><a href="https://github.com/aakash-s45/ic"  target="_blank" rel="noopener" >https://github.com/aakash-s45/ic</a></li>
+</ul>
+<hr>
+<p><a href="" >Week 6 Report →</a> To be Updated!</p>
+<p><a href="/articles/week-4" >← Week 4 Report</a></p>
+
+    </article>
+  </div>
 
 </div>
 

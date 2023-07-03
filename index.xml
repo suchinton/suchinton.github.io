@@ -6,7 +6,16 @@
     <description>Recent content in Homepage on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 5 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week-5/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week-5/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  Refactored the IC Acceleration function IC page script (Toggle) Initialized Steering wheel Signals Controls (Not yet functional) Navigation Page (Revised Style sheet and improved operations   What I plan to do next   # IC Acceleration Button This week I updated the Acceleration button to operate on a Pressed and Released event instead of the previously used Clicked event, this allows us to implement a both Acceleration and Deceliration proportionally for the vehicle&amp;rsquo;s Speed and the Engine RPM.</description>
+    </item>
+    
     <item>
       <title>Week 4 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-4/</link>

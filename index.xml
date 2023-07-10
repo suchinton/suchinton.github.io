@@ -6,7 +6,17 @@
     <description>Recent content in Homepage on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 6 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week-6/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week-6/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  Specified Steering wheel Controls Improved Settings page and error handling Default settings Improved Navigation Page Updated README and Troubleshooting steps   What I plan to do next   # Steering Wheel Controls This week I added the various signals for the Steering Wheel Controls, namely
+ Volume Up: &amp;ldquo;Vehicle.Cabin.SteeringWheel.Switches.VolumeUp&amp;rdquo; Volume Down: &amp;ldquo;Vehicle.Cabin.SteeringWheel.Switches.VolumeDown&amp;rdquo; Volume Mute: &amp;ldquo;Vehicle.</description>
+    </item>
+    
     <item>
       <title>Week 5 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-5/</link>

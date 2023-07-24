@@ -6,7 +6,16 @@
     <description>Recent content in GSoC &#39;23 Blog on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 8 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week-8/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week-8/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  Uploaded the repo to Gerrit as a patch set, link. Deprecated Navigation Page after discussion with mentors. Refactored QThread instance for feeding values to the kuksa server. Added option in settings to hide pages. Reviewed documentation for Python-can to enable Steering wheel controls.   What I plan to do next   # Pushing To Gerrit I was able to push all of my progress to Gerrit this week despite a few challenges, where every time I would try to clone the agl-demo-control-panel repo, I would get the following message:</description>
+    </item>
+    
     <item>
       <title>Week 7 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-7/</link>

@@ -6,7 +6,16 @@
     <description>Recent content in GSoC &#39;23 Blog on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 9 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week-9/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week-9/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  Refined the navigation bar Improved Acceleration function Dummy triggers for Steering Wheel controls   What I plan to do next   # Navigation Bar This week I switched the navigation bar from a vertical layout to a horizontal layout to make navigation more intuitive and accessible. I am currently working on revising the animation of the button sizes.</description>
+    </item>
+    
     <item>
       <title>Week 8 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-8/</link>

@@ -13,7 +13,7 @@
       <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/articles/week-12/</guid>
-      <description># Topics To Be Covered In This Post  What I did this week  Created CAN interface using cannelloni Implemented the FeedCAN module. Added support for sending Steering wheel CAN messages. Created a test script for sending CAN frames using the USB CAN adapter.   What I plan to do next   # How to use cannelloni For the purpose of testing the AGL Demo Contorl Panel for sending CAN messages to the target machine, we can create a virtual CAN interface using cannelloni.</description>
+      <description># Topics To Be Covered In This Post  What I did this week  Created CAN interface using cannelloni Implemented the FeedCAN module. Added support for sending Steering wheel CAN messages. Created a test script for sending CAN frames using the USB CAN adapter.   What I plan to do next   # How to use cannelloni To test the AGL Demo Control Panel for sending CAN messages to the target machine, we can create a virtual CAN interface using cannelloni.</description>
     </item>
     
     <item>

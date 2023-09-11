@@ -6,7 +6,16 @@
     <description>Recent content in GSoC &#39;23 Blog on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 15 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week-15/</link>
+      <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week-15/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  First draft of the &amp;ldquo;AGL Demo Control Panel&amp;rdquo; documentation.  Minor Adjustments to UI Simplified Settings Page. Refactoring the VSS subscription Module   What I plan to do next   # First draft of the &amp;ldquo;AGL Demo Control Panel&amp;rdquo; documentation.  I started writing the initial draft of the documentation for AGL Demo Control Panel by following the steps provided in the official documentation of AGL.</description>
+    </item>
+    
     <item>
       <title>Week 14 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-14/</link>

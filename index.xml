@@ -6,7 +6,16 @@
     <description>Recent content in Homepage on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 16 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week-16/</link>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week-16/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  Pushed partial code to Gerrit for review. Completed initial documentation. Resolved minor bugs and UI tweaks. Refactored code wherever needed.   What I plan to do next   # Pushing code to Gerrit This week saw major refactoring and documentation of the code for the AGL Demo Control Panel and partial commits were made for review on Gerrit.</description>
+    </item>
+    
     <item>
       <title>Week 15 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-15/</link>

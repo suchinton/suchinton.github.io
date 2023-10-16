@@ -6,7 +6,16 @@
     <description>Recent content in Homepage on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Oct 2023 16:13:53 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Oct 2023 14:34:21 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 20 Progress Report</title>
+      <link>https://suchinton.github.io/articles/week-20/</link>
+      <pubDate>Mon, 16 Oct 2023 14:34:21 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/week-20/</guid>
+      <description># Topics To Be Covered In This Post  What I did this week  Pushing code to Gerrit. Added drop-down in settings to pick configs. Refactored config.py and settings.py to handle user preferences better.   What I plan to do next   # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit. The following changes have been pushed so far:</description>
+    </item>
+    
     <item>
       <title>Week 19 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-19/</link>

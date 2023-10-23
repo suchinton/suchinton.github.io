@@ -656,7 +656,7 @@ Changes pushed so far:
 <li>Increased DejaVu font sizes for <code>QLabels</code> and <code>QPushButtons</code> to make the text more legible.</li>
 <li>Removed QScrollbar components to better adjust to smaller screens and remove clipped borders in QStacked widget frames.</li>
 <li>Start/Stop button was redone to help manage sessions of the client more easily.</li>
-<li>The client is now stopped when <code>AGL_Demo_Control_Panel</code> is closed using the window controls.</li>
+<li>The client is now stops when <code>AGL_Demo_Control_Panel</code> is closed using the window controls.</li>
 </ul>
 <h2 id="refactored-kuksa-subscription">Refactored Kuksa Subscription</h2>
 <p>This week I also refactored the way subscribed updates are handled in the control panel, previously the application would both subscribe to any changes made to a signal and also set the updated values, and since the new values set on the control panel trigger a <code>send_values</code> function when an event occurs, the values would be set twice.</p>

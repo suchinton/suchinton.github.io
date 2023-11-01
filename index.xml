@@ -6,7 +6,18 @@
     <description>Recent content in Homepage on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSoC 2023 Final Report</title>
+      <link>https://suchinton.github.io/articles/final-report/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/final-report/</guid>
+      <description>Introduction This report is a requirement of the Final Evaluations phase of Google Summer of Codethe Google program. I worked with the Linux Foundation, under Automotive Grade Linux to develop a Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val
+You can find the proposal for this project here.
+The Linux Foundation is a nonprofit consortium dedicated to fostering the growth of Linux. Automotive Grade Linux is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications.</description>
+    </item>
+    
     <item>
       <title>Week 22 Progress Report</title>
       <link>https://suchinton.github.io/articles/week-22/</link>

@@ -12,42 +12,52 @@
 
   
   <title>
-    Week 15 Progress Report - Suchinton&#39;s Hub 🚀
+    GSoC 2023 Final Report - Suchinton&#39;s Hub 🚀
   </title>
 
-  <meta name="description" content="# Topics To Be Covered In This Post  What I did this week  First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  Minor Adjustments to UI Simplified Settings Page. Refactoring the VSS subscription Module   What I plan to do next   # First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  I started writing the initial draft of the documentation for AGL Demo Control Panel by following the steps provided in the official documentation of AGL." /><meta name="generator" content="Hugo 0.92.2" />
+  <meta name="description" content="Introduction This report is a requirement of the Final Evaluations phase of Google Summer of Codethe Google program. I worked with the Linux Foundation, under Automotive Grade Linux to develop a Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val
+You can find the proposal for this project here.
+The Linux Foundation is a nonprofit consortium dedicated to fostering the growth of Linux. Automotive Grade Linux is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications." /><meta name="generator" content="Hugo 0.92.2" />
 
   <link rel="stylesheet" href="https://suchinton.github.io/css/main.css" />
 
   
   
 
-  <meta property="og:title" content="Week 15 Progress Report" />
-<meta property="og:description" content="# Topics To Be Covered In This Post  What I did this week  First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  Minor Adjustments to UI Simplified Settings Page. Refactoring the VSS subscription Module   What I plan to do next   # First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  I started writing the initial draft of the documentation for AGL Demo Control Panel by following the steps provided in the official documentation of AGL." />
+  <meta property="og:title" content="GSoC 2023 Final Report" />
+<meta property="og:description" content="Introduction This report is a requirement of the Final Evaluations phase of Google Summer of Codethe Google program. I worked with the Linux Foundation, under Automotive Grade Linux to develop a Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val
+You can find the proposal for this project here.
+The Linux Foundation is a nonprofit consortium dedicated to fostering the growth of Linux. Automotive Grade Linux is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://suchinton.github.io/articles/week-15/" /><meta property="og:image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week15/GSOC Report IMG.png" /><meta property="article:section" content="articles" />
-<meta property="article:published_time" content="2023-09-09T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-09-09T00:00:00+00:00" />
+<meta property="og:url" content="https://suchinton.github.io/articles/final-report/" /><meta property="og:image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Final-Report/Final.png" /><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2023-10-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-10-31T00:00:00+00:00" />
 
 
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week15/GSOC Report IMG.png"/>
+<meta name="twitter:image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Final-Report/Final.png"/>
 
-<meta name="twitter:title" content="Week 15 Progress Report"/>
-<meta name="twitter:description" content="# Topics To Be Covered In This Post  What I did this week  First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  Minor Adjustments to UI Simplified Settings Page. Refactoring the VSS subscription Module   What I plan to do next   # First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  I started writing the initial draft of the documentation for AGL Demo Control Panel by following the steps provided in the official documentation of AGL."/>
+<meta name="twitter:title" content="GSoC 2023 Final Report"/>
+<meta name="twitter:description" content="Introduction This report is a requirement of the Final Evaluations phase of Google Summer of Codethe Google program. I worked with the Linux Foundation, under Automotive Grade Linux to develop a Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val
+You can find the proposal for this project here.
+The Linux Foundation is a nonprofit consortium dedicated to fostering the growth of Linux. Automotive Grade Linux is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications."/>
 
 
-  <meta itemprop="name" content="Week 15 Progress Report">
-<meta itemprop="description" content="# Topics To Be Covered In This Post  What I did this week  First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  Minor Adjustments to UI Simplified Settings Page. Refactoring the VSS subscription Module   What I plan to do next   # First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  I started writing the initial draft of the documentation for AGL Demo Control Panel by following the steps provided in the official documentation of AGL."><meta itemprop="datePublished" content="2023-09-09T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-09-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="323"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week15/GSOC Report IMG.png">
+  <meta itemprop="name" content="GSoC 2023 Final Report">
+<meta itemprop="description" content="Introduction This report is a requirement of the Final Evaluations phase of Google Summer of Codethe Google program. I worked with the Linux Foundation, under Automotive Grade Linux to develop a Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val
+You can find the proposal for this project here.
+The Linux Foundation is a nonprofit consortium dedicated to fostering the growth of Linux. Automotive Grade Linux is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications."><meta itemprop="datePublished" content="2023-10-31T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-10-31T00:00:00+00:00" />
+<meta itemprop="wordCount" content="672"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Final-Report/Final.png">
 <meta itemprop="keywords" content="" />
 
-  <meta itemprop="name" content="Week 15 Progress Report">
-<meta itemprop="description" content="# Topics To Be Covered In This Post  What I did this week  First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  Minor Adjustments to UI Simplified Settings Page. Refactoring the VSS subscription Module   What I plan to do next   # First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  I started writing the initial draft of the documentation for AGL Demo Control Panel by following the steps provided in the official documentation of AGL."><meta itemprop="datePublished" content="2023-09-09T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-09-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="323"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week15/GSOC Report IMG.png">
+  <meta itemprop="name" content="GSoC 2023 Final Report">
+<meta itemprop="description" content="Introduction This report is a requirement of the Final Evaluations phase of Google Summer of Codethe Google program. I worked with the Linux Foundation, under Automotive Grade Linux to develop a Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val
+You can find the proposal for this project here.
+The Linux Foundation is a nonprofit consortium dedicated to fostering the growth of Linux. Automotive Grade Linux is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications."><meta itemprop="datePublished" content="2023-10-31T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-10-31T00:00:00+00:00" />
+<meta itemprop="wordCount" content="672"><meta itemprop="image" content="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Final-Report/Final.png">
 <meta itemprop="keywords" content="" />
 </head><body class="flex relative h-full min-h-screen"><aside
 class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
@@ -314,7 +324,7 @@ class="will-change-transform transform transition-transform -translate-x-full ab
 </script>
 <div class="space-y-2.5">
       
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+      <a class="article block px-3 py-4  bg-slate-900 dark:bg-slate-700 text-slate-50 "
         href="/articles/final-report/">
         
         
@@ -322,7 +332,7 @@ class="will-change-transform transform transition-transform -translate-x-full ab
         
         <h3 class="text-lg font-semibold mb-0.5">GSoC 2023 Final Report</h3>
         <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
+          class="text-sm  text-slate-400  line-clamp-2">
           Introduction This report is a requirement of the Final Evaluations phase of Google Summer of Codethe Google program. I worked with the Linux Foundation, under Automotive Grade Linux to develop a Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val
 You can find the proposal for this project here.
 The Linux Foundation is a nonprofit consortium dedicated to fostering the growth of Linux. Automotive Grade Linux is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications.
@@ -423,7 +433,7 @@ Changes pushed so far:
         </div>
       </a>
       
-      <a class="article block px-3 py-4  bg-slate-900 dark:bg-slate-700 text-slate-50 "
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/articles/week-15/">
         
         
@@ -431,7 +441,7 @@ Changes pushed so far:
         
         <h3 class="text-lg font-semibold mb-0.5">Week 15 Progress Report</h3>
         <div
-          class="text-sm  text-slate-400  line-clamp-2">
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           # Topics To Be Covered In This Post  What I did this week  First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  Minor Adjustments to UI Simplified Settings Page. Refactoring the VSS subscription Module   What I plan to do next   # First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation.  I started writing the initial draft of the documentation for AGL Demo Control Panel by following the steps provided in the official documentation of AGL.
         </div>
       </a>
@@ -640,80 +650,117 @@ Changes pushed so far:
     <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
 
       
-      <h1 class="!mb-2">Week 15 Progress Report</h1>
+      <h1 class="!mb-2">GSoC 2023 Final Report</h1>
 	  
-      <p class="text-sm text-slate-500 !mb-8"> Posted September 9, 2023
+      <p class="text-sm text-slate-500 !mb-8"> Posted October 31, 2023
 		
 	  </p>
       
 
       
-      <img class="rounded max-w-full mx-auto mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week15/GSOC%20Report%20IMG.png" alt="Week 15 Progress Report" />
+      <img class="rounded max-w-full mx-auto mb-4" src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Final-Report/Final.png" alt="GSoC 2023 Final Report" />
       
 
-      <h3 id="-topics-to-be-covered-in-this-post"># Topics To Be Covered In This Post</h3>
-<ul>
-<li>What I did this week
-<ul>
-<li>First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation. </li>
-<li>Minor Adjustments to UI</li>
-<li>Simplified Settings Page.</li>
-<li>Refactoring the VSS subscription Module</li>
-</ul>
-</li>
-<li>What I plan to do next</li>
-</ul>
+      <h2 id="introduction">Introduction</h2>
+<p>This report is a requirement of the Final Evaluations phase of <a href="https://summerofcode.withgoogle.com/"  target="_blank" rel="noopener" >Google Summer of Code</a>the Google program. I worked with the Linux Foundation, under <a href="https://www.automotivelinux.org/"  target="_blank" rel="noopener" >Automotive Grade Linux</a> to develop a <a href="https://summerofcode.withgoogle.com/programs/2023/projects/4GykHUGj"  target="_blank" rel="noopener" >Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val</a></p>
+<p>You can find the proposal for this project <a href="https://summerofcode.withgoogle.com/media/user/7727eb0be3f8/proposal/gAAAAABlQjk4SOaYrrlsSpbJ4W5xEunFBYrADUJV9kxQBv6Y-0qCuwMJpd3W_FZc36bgKGAdD3XSQYfu5m9m633N1Uz2DRU12uGdbksiXE-ngpv1HdU5kmY=.pdf"  target="_blank" rel="noopener" >here</a>.</p>
+<p><a href="https://www.linuxfoundation.org/"  target="_blank" rel="noopener" >The Linux Foundation</a> is a nonprofit consortium dedicated to fostering the growth of Linux. <a href="https://www.automotivelinux.org/"  target="_blank" rel="noopener" >Automotive Grade Linux</a> is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications.</p>
 <hr>
-<h2 id="-first-draft-of-the-agl-demo-control-panel-documentation"># First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation. </h2>
-<p>I started writing the initial draft of the documentation for <code>AGL Demo Control Panel</code> by following the steps provided in the official <a href="https://docs.automotivelinux.org/en/master/#07_How_To_Contribute/08_Adding_Documentation/"  target="_blank" rel="noopener" >documentation</a> of AGL.</p>
-<h3 id="cloning-the-docs">cloning the docs</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone <span style="color:#f1fa8c">&#34;ssh://suchinton2001@gerrit.automotivelinux.org:29418/AGL/documentation&#34;</span> <span style="color:#ff79c6">&amp;&amp;</span> scp -p -P <span style="color:#bd93f9">29418</span> suchinton2001@gerrit.automotivelinux.org:hooks/commit-msg <span style="color:#f1fa8c">&#34;documentation/.git/hooks/&#34;</span>
-</code></pre></div><h2 id="building-a-local-site">Building a local site</h2>
-<ol>
-<li>
-<p>Change into the directory</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ <span style="color:#8be9fd;font-style:italic">cd</span> documentation
-</code></pre></div></li>
-<li>
-<p>Install MkDocs and rtd-dropdown theme</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo pip install -r requirements.txt
-</code></pre></div></li>
-<li>
-<p>Serve locally (default rendered at <code>127.0.0.1:8000/</code>):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo mkdocs serve
-</code></pre></div></li>
-</ol>
-<p>The documentation for <code>AGL Demo Control Panel</code> will be found under <code>06 Component Documentation</code> after it has been reviewed and merged.</p>
-<h2 id="-minor-adjustments-to-ui"># Minor Adjustments to UI</h2>
-<ol>
-<li>Sliders for the Instrument Cluster page were made wider and spaced out to enable easier touch controls.</li>
-<li>QSS styling for widgets was redone to better show hower, click, and push events.</li>
-<li>Resolved dependency naming and path in the <code>res.qrc</code> file.</li>
-</ol>
-<h2 id="-simplified-settings-page"># Simplified Settings Page.</h2>
-<p>This week I also simplified the steps to enable a connection with the server to just two buttons where the <code>Reconnect</code> and <code>Refresh</code> buttons have now been merged into one and the UI no longer hangs while the client connects to the server.</p>
-<h2 id="-refactoring-vss-subscription-module"># Refactoring VSS subscription Module</h2>
-<p>This week I also refactored the VSS subscription module to use the <code>subscribe</code> method from the <code>kuksa-client</code> and updated the control panel widgets to show values accurately whenever a change is registered.</p>
-<p>VSS Paths the are subscribe to are:</p>
-<ol>
-<li><strong>Vehicle Speed</strong>: &ldquo;Vehicle.Speed&rdquo;</li>
-<li><strong>Engine RPM</strong>: &ldquo;Vehicle.Powertrain.CombustionEngine.Speed&rdquo;</li>
-<li><strong>Fuel Level</strong>: &ldquo;Vehicle.Powertrain.FuelSystem.Level&rdquo;</li>
-<li><strong>Coolant Temp</strong>: &ldquo;Vehicle.Powertrain.CombustionEngine.ECT&rdquo;</li>
-<li><strong>Left Temp</strong>: &ldquo;Vehicle.Cabin.HVAC.Station.Row1.Left.Temperature&rdquo;</li>
-<li><strong>Left Fan Speed</strong>: &ldquo;Vehicle.Cabin.HVAC.Station.Row1.Left.FanSpeed&rdquo;</li>
-<li><strong>Right Temp</strong>: &ldquo;Vehicle.Cabin.HVAC.Station.Row1.Right.Temperature&rdquo;</li>
-<li><strong>Right Fan Speed</strong>: &ldquo;Vehicle.Cabin.HVAC.Station.Row1.Right.FanSpeed&rdquo;</li>
-</ol>
-<hr>
-<h2 id="-what-next"># What Next?</h2>
+<h2 id="project-overview">Project Overview</h2>
+<p>The objective of this project was to develop a Qt5 application that simulates CAN bus traffic using Kuksa.val to integrate with the AGL Demo platform. The application developed allows the end-users to emit signals using the kuksa-client SDK and Python-can to visualize and interact with AGL Demo applications, such as the IC, IVI, HVAC, and the Green Machine, that display CAN data through Kuksa.val.</p>
+<h3 id="-source-code--documentation"># Source Code &amp; Documentation</h3>
+<p>→ Gerrit: <a href="https://gerrit.automotivelinux.org/gerrit/admin/repos/src/agl-demo-control-panel,general"  target="_blank" rel="noopener" >agl-demo-control-panel</a></p>
+<p>→ GitHub: <a href="https://github.com/suchinton/AGL_Demo_Control_Panel"  target="_blank" rel="noopener" >AGL_Demo_Control_Panel</a></p>
+<p>→ Documentation: <a href="https://docs.automotivelinux.org/en/master/#06_Component_Documentation/09_AGL_Demo_Control_Panel/"  target="_blank" rel="noopener" >AGL/documentation</a></p>
+<h3 id="-deliverables"># Deliverables</h3>
 <ul>
-<li>Complete Documentation.</li>
-<li>Continue pushing code to Gerrit for review.</li>
+<li>Building a modern Qt5 application using PyQt5/QML that can simulate CAN-Bus signals using kuksa.val.</li>
+<li>Integrate the application with the AGL Demo platform.</li>
+<li>Packaging and distribution of the Application.</li>
+<li>Update documentation pages based on work.</li>
 </ul>
-<hr>
-<p><a href="/articles/week-16" >Week 16 Report →</a></p>
-<p><a href="/articles/week-14" >← Week 14 Report</a></p>
+<h2 id="work-done-wip">Work Done (WIP)</h2>
+<h3 id="-progress-reports"># Progress Reports</h3>
+<p><a href="/articles/community-bonding-period" >→ Community Bonding Period</a>: During the GSoC 2023 community bonding period, I had a fantastic learning experience. I got to know my GSoC mentors and the AGL community, familiarized myself with AGL tools, and set up my working environment. I also tackled some technical challenges, ventured into working with Kuksa-val-server, Kuksa-client, and AGL images. Overall, the community bonding period was a great start.</p>
+<p>Below I have compiled all my Weekly Progress Reports for the duration of the coding period of <code>GSoC '23</code>.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/articles/week-1" >Week 1 </a></td>
+<td><a href="/articles/week-2" >Week 2 </a></td>
+<td><a href="/articles/week-3" >Week 3 </a></td>
+</tr>
+<tr>
+<td><a href="/articles/week-4" >Week 4 </a></td>
+<td><a href="/articles/week-5" >Week 5 </a></td>
+<td><a href="/articles/week-6" >Week 6 </a></td>
+</tr>
+<tr>
+<td><a href="/articles/week-7" >Week 7 </a></td>
+<td><a href="/articles/week-8" >Week 8 </a></td>
+<td><a href="/articles/week-9" >Week 9 </a></td>
+</tr>
+<tr>
+<td><a href="/articles/week-10" >Week 10</a></td>
+<td><a href="/articles/week-11" >Week 11</a></td>
+<td><a href="/articles/week-12" >Week 12</a></td>
+</tr>
+<tr>
+<td><a href="/articles/week-13" >Week 13</a></td>
+<td><a href="/articles/week-14" >Week 14</a></td>
+<td><a href="/articles/week-15" >Week 15</a></td>
+</tr>
+<tr>
+<td><a href="/articles/week-16" >Week 16</a></td>
+<td><a href="/articles/week-17" >Week 17</a></td>
+<td><a href="/articles/week-18" >Week 18</a></td>
+</tr>
+<tr>
+<td><a href="/articles/week-19" >Week 19</a></td>
+<td><a href="/articles/week-20" >Week 20</a></td>
+<td><a href="/articles/week-21" >Week 21</a></td>
+</tr>
+<tr>
+<td><a href="/articles/week-22" >Week 22</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="-major-gerrit-commits"># Major Gerrit Commits</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29339"  target="_blank" rel="noopener" >29339:</a> agl-demo-control-panel: Improve grpc connection</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29311"  target="_blank" rel="noopener" >29311:</a> agl-demo-control-panel: Add Fullscreen / maximized option</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29302"  target="_blank" rel="noopener" >29302:</a> agl-demo-control-panel: Save user preferences for next session</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29291"  target="_blank" rel="noopener" >29291:</a> agl-demo-control-panel: Fix Svg icons scaling on Dashboard</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29279"  target="_blank" rel="noopener" >29279:</a> agl-demo-control-panel: Refactor Settings, Config and UI scaling</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29275"  target="_blank" rel="noopener" >29275:</a> agl-demo-control-panel: Add installation steps for debian/RPiOS</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29270"  target="_blank" rel="noopener" >29270:</a> agl-demo-control-panel: Add grpc support for databroker</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29060"  target="_blank" rel="noopener" >29060:</a> Upload progress on AGL demo control panel in one batch</li>
+</ul>
+<h3 id="-what-did-i-learn"># What did I learn?</h3>
+<ul>
+<li>I was able to learn about the Yocto Project and create layers and recipes for our specific application</li>
+<li>I learnt how to create quality applications using <a href="https://www.qt.io/"  target="_blank" rel="noopener" >Qt</a>, <a href="https://wiki.python.org/moin/PyQt"  target="_blank" rel="noopener" >PyQt</a>.</li>
+<li>Learnt about <a href="https://grpc.io/"  target="_blank" rel="noopener" >gRPC</a> and <a href="" >websockets</a> and how they are implemented in Kuksa.val.</li>
+<li>I had the wonderful opportunity to test my application and AGL images on a Raspberry Pi 4 kindly provided by my AGL mentors. I was also provided a pair of <a href="" >CAN to USB</a> adaptors for testing CAN signals, while we ended up not using it for our demo it did help me learn more about CAN interfaces, Linux kernel modules, and Python-can.</li>
+<li>I also learned a lot more about the Automotive Grade Linux organization, its development tools, workflow, and pipeline.</li>
+</ul>
+<h3 id="-post-gsoc"># Post GSoC</h3>
+<ul>
+<li>I plan to maintain and add to the Automotive Grade Linux’s repository for my project for the foreseeable future and work on continually improving it.</li>
+<li>I will keep contributing and help other new contributors to explore and learn projects in this organization.</li>
+</ul>
+<h2 id="acknowledgments">Acknowledgments</h2>
+<p>I would like to express my gratitude to my mentors <a href="https://www.automotivelinux.org/blog/developer-showcase-jansimon-moller/"  target="_blank" rel="noopener" >Jan-Simon Möller</a>, <a href="https://www.konsulko.com/about/meet-the-team#:~:text=extremely%20small%20systems.-,Scott%20Murray,-Principal%20Software%20Engineer"  target="_blank" rel="noopener" >Scott Murray</a>, <a href="mailto:marius.vlad@collabora.com" >Marius Vlad</a>, and <a href="https://www.automotivelinux.org/about/leadership/"  target="_blank" rel="noopener" >Walt Miner</a> for mentoring me through GSoC and also to the whole AGL community for being so inclusive and friendly.</p>
+<p>It has been one of the best professional experiences that I have had this year. Learning about new tools and technologies, and working on an open-source project along with experienced developers from all over the world has been a great experience for me. I would love to continue working with AGL, improving my project, and whatever I feel that I can contribute to.</p>
 
     </article>
   </div>

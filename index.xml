@@ -232,16 +232,6 @@ Changes pushed so far:
     </item>
     
     <item>
-      <title>Semester-long Intern at FOSSEE, IIT Bombay (February - May 2023)</title>
-      <link>https://suchinton.github.io/portfolio/fossee/</link>
-      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://suchinton.github.io/portfolio/fossee/</guid>
-      <description>What is FOSSEE? FOSSEE is a project developed at IIT Bombay that promotes the use of FLOSS tools in academia and research. The project is funded by the National Mission on Education through ICT, Ministry of Education, Government of India. FOSSEE supports various FLOSS tools such as Scilab, Python, eSim, OpenFOAM, DWSIM, R, OpenModelica and more.
-My work   Flatpak_Test_App (FOSSEE_Installer_Test): A proof of concept application, implemented using Qt5 and Flatpak Sandboxing.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://suchinton.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -249,6 +239,25 @@ My work   Flatpak_Test_App (FOSSEE_Installer_Test): A proof of concept applicati
       <guid>https://suchinton.github.io/about/</guid>
       <description>Suchinton Chakravarty Linux Enthusiast GSoC &#39;23 @ AGL eSim-intern 2023, IIT Bombay  I am a 4th-year student at Amity University Noida, pursuing a B.Tech degree in Computer Science &amp;amp; Engineering. I am passionate about Linux and open-source software and love to tinker with new technologies and learn new things whenever I can.
 Currently, I am a contributor to GSoC &amp;lsquo;23 at AGL under The Linux Foundation, and working on implementing a Qt5 application that can simulate CAN Bus signals using Kuksa.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://suchinton.github.io/portfolio/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/portfolio/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semester-long Intern at FOSSEE, IIT Bombay (February - May 2023)</title>
+      <link>https://suchinton.github.io/portfolio/fossee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/portfolio/fossee/</guid>
+      <description>What is FOSSEE? FOSSEE is a project developed at IIT Bombay that promotes the use of FLOSS tools in academia and research. The project is funded by the National Mission on Education through ICT, Ministry of Education, Government of India. FOSSEE supports various FLOSS tools such as Scilab, Python, eSim, OpenFOAM, DWSIM, R, OpenModelica and more.
+My work   Flatpak_Test_App (FOSSEE_Installer_Test): A proof of concept application, implemented using Qt5 and Flatpak Sandboxing.</description>
     </item>
     
   </channel>

@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio -  To be updated soon! on Suchinton&#39;s Hub 🚀</title>
+    <title>Portfolio on Suchinton&#39;s Hub 🚀</title>
     <link>https://suchinton.github.io/portfolio/</link>
-    <description>Recent content in Portfolio -  To be updated soon! on Suchinton&#39;s Hub 🚀</description>
+    <description>Recent content in Portfolio on Suchinton&#39;s Hub 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 05 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://suchinton.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>https://suchinton.github.io/portfolio/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/portfolio/resume/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Semester-long Intern at FOSSEE, IIT Bombay (February - May 2023)</title>
       <link>https://suchinton.github.io/portfolio/fossee/</link>
-      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/portfolio/fossee/</guid>
       <description>What is FOSSEE? FOSSEE is a project developed at IIT Bombay that promotes the use of FLOSS tools in academia and research. The project is funded by the National Mission on Education through ICT, Ministry of Education, Government of India. FOSSEE supports various FLOSS tools such as Scilab, Python, eSim, OpenFOAM, DWSIM, R, OpenModelica and more.

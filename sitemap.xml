@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://suchinton.github.io/articles/</loc>
-    <lastmod>2023-10-31T00:00:00+00:00</lastmod>
+    <loc>https://suchinton.github.io/articles/firstpost/</loc>
+    <lastmod>2024-01-14T21:37:49+05:30</lastmod>
   </url><url>
-    <loc>https://suchinton.github.io/articles/final-report/</loc>
-    <lastmod>2023-10-31T00:00:00+00:00</lastmod>
+    <loc>https://suchinton.github.io/articles/</loc>
+    <lastmod>2024-01-14T21:37:49+05:30</lastmod>
   </url><url>
     <loc>https://suchinton.github.io/</loc>
+    <lastmod>2024-01-14T21:37:49+05:30</lastmod>
+  </url><url>
+    <loc>https://suchinton.github.io/articles/final-report/</loc>
     <lastmod>2023-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://suchinton.github.io/articles/week-22/</loc>
@@ -84,6 +87,8 @@
     <priority>0</priority>
   </url><url>
     <loc>https://suchinton.github.io/categories/</loc>
+  </url><url>
+    <loc>https://suchinton.github.io/portfolio/gsoc_2023/</loc>
   </url><url>
     <loc>https://suchinton.github.io/portfolio/</loc>
   </url><url>

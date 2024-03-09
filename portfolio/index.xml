@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio on Suchinton&#39;s Hub 🚀</title>
+    <title>Portfolio on Suchinton&#39;s Hub</title>
     <link>https://suchinton.github.io/portfolio/</link>
-    <description>Recent content in Portfolio on Suchinton&#39;s Hub 🚀</description>
+    <description>Recent content in Portfolio on Suchinton&#39;s Hub</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://suchinton.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2024 Suchinton</copyright>
+    <atom:link href="https://suchinton.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GSoC &#39;23 The Linux Foundation @ Automotive Grade Linux (May - Nov 2023)</title>
       <link>https://suchinton.github.io/portfolio/gsoc_2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/portfolio/gsoc_2023/</guid>
-      <description>What is GSoC? Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005. The program aims to bring together students and open-source organizations to work on real-world projects. The program has three phases: the community bonding period, the coding period, and the final evaluation period.
-ibdwuib
-What is The Linux Foundation and Automotive Grade Linux?</description>
+      <description>What is GSoC?</description>
+      
     </item>
     
     <item>
@@ -23,7 +24,8 @@ What is The Linux Foundation and Automotive Grade Linux?</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/portfolio/resume/</guid>
-      <description> </description>
+      <description></description>
+      
     </item>
     
     <item>
@@ -32,8 +34,8 @@ What is The Linux Foundation and Automotive Grade Linux?</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/portfolio/fossee/</guid>
-      <description>What is FOSSEE? FOSSEE is a project developed at IIT Bombay that promotes the use of FLOSS tools in academia and research. The project is funded by the National Mission on Education through ICT, Ministry of Education, Government of India. FOSSEE supports various FLOSS tools such as Scilab, Python, eSim, OpenFOAM, DWSIM, R, OpenModelica and more.
-My work Flatpak_Test_App (FOSSEE_Installer_Test): A proof of concept application, implemented using Qt5 and Flatpak Sandboxing.</description>
+      <description>What is FOSSEE?</description>
+      
     </item>
     
   </channel>

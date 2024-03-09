@@ -1,673 +1,630 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-<head>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   
-  <title>
-    Week 22 Progress Report - Suchinton&#39;s Hub 🚀
-  </title>
-
-  <meta name="description" content="# Topics To Be Covered In This Post What I did this week Pushing code and bug fixes to Gerrit. Added flag in config file to start control panel in full-screen mode. Added persistent user configurations. Updated documentation and Readme file. Created the first draft of the final GSoC report. What I plan to do next # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit." /><meta name="generator" content="Hugo 0.111.3">
-
-  <link rel="stylesheet" href="https://suchinton.github.io/css/main.css" />
-
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Week 22 Progress Report &middot; Suchinton&#39;s Hub</title>
+  <meta name="title" content="Week 22 Progress Report &middot; Suchinton&#39;s Hub" />
+  
+  <meta name="description" content="Suchinton&#39;s Hub" />
   
   
-
+  
+  <link rel="canonical" href="https://suchinton.github.io/articles/week-22/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.bd0b2f8f7094ead87b11eae5df3ef84bbd2893b52c06a8e80fa70f33cf6c80dd0257eb607f0ececf7a0594ba0c0496e5be8471fc5c9bbf89f506c62661f315f4.css"
+    integrity="sha512-vQsvj3CU6th7Eerl3z74S70ok7UsBqjoD6cPM89sgN0CV&#43;tgfw7Oz3oFlLoMBJblvoRx/Fybv4n1BsYmYfMV9A==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.aa2a80d938ad305204df2c99e1dc0cde8fee122a308e9c8bf7f4cf45d42a26bbc471f623fe1920193f2a41c5a969485e6824629816dcbc549d4e57c3f9206d42.js"
+    integrity="sha512-qiqA2TitMFIE3yyZ4dwM3o/uEiowjpyL9/TPRdQqJrvEcfYj/hkgGT8qQcWpaUheaCRimBbcvFSdTlfD&#43;SBtQg==" data-copy="" data-copied=""></script>
+  
+  
+  <script src="/js/zoom.min.js"></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
   <meta property="og:title" content="Week 22 Progress Report" />
-<meta property="og:description" content="# Topics To Be Covered In This Post What I did this week Pushing code and bug fixes to Gerrit. Added flag in config file to start control panel in full-screen mode. Added persistent user configurations. Updated documentation and Readme file. Created the first draft of the final GSoC report. What I plan to do next # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit." />
+<meta property="og:description" content="# Topics To Be Covered In This Post # What I did this week Pushing code and bug fixes to Gerrit." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://suchinton.github.io/articles/week-22/" /><meta property="og:image" content="https://suchinton.github.io/images/WPR/Week22/GSOC%20Report%20IMG.png" /><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2023-10-28T00:00:00+00:00" />
 <meta property="article:modified_time" content="2023-10-28T00:00:00+00:00" />
 
 
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://suchinton.github.io/images/WPR/Week22/GSOC%20Report%20IMG.png"/>
+  <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://suchinton.github.io/images/WPR/Week22/GSOC%20Report%20IMG.png" /><meta name="twitter:title" content="Week 22 Progress Report"/>
+<meta name="twitter:description" content="# Topics To Be Covered In This Post # What I did this week Pushing code and bug fixes to Gerrit."/>
 
-<meta name="twitter:title" content="Week 22 Progress Report"/>
-<meta name="twitter:description" content="# Topics To Be Covered In This Post What I did this week Pushing code and bug fixes to Gerrit. Added flag in config file to start control panel in full-screen mode. Added persistent user configurations. Updated documentation and Readme file. Created the first draft of the final GSoC report. What I plan to do next # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit."/>
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "GSoC \u002723 Blog",
+    "name": "Week 22 Progress Report",
+    "headline": "Week 22 Progress Report",
+    
+    "abstract": "# Topics To Be Covered In This Post # What I did this week Pushing code and bug fixes to Gerrit.",
+    "inLanguage": "en",
+    "url" : "https:\/\/suchinton.github.io\/articles\/week-22\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Suchinton"
+    },
+    "copyrightYear": "2023",
+    "dateCreated": "2023-10-28T00:00:00\u002b00:00",
+    "datePublished": "2023-10-28T00:00:00\u002b00:00",
+    
+    "dateModified": "2023-10-28T00:00:00\u002b00:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "400"
+  }]
+  </script>
 
 
-  <meta itemprop="name" content="Week 22 Progress Report">
-<meta itemprop="description" content="# Topics To Be Covered In This Post What I did this week Pushing code and bug fixes to Gerrit. Added flag in config file to start control panel in full-screen mode. Added persistent user configurations. Updated documentation and Readme file. Created the first draft of the final GSoC report. What I plan to do next # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit."><meta itemprop="datePublished" content="2023-10-28T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-10-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="395"><meta itemprop="image" content="https://suchinton.github.io/images/WPR/Week22/GSOC%20Report%20IMG.png">
-<meta itemprop="keywords" content="" />
+  
+  
+  <meta name="author" content="Suchinton" />
+  
+  
+  
 
-  <meta itemprop="name" content="Week 22 Progress Report">
-<meta itemprop="description" content="# Topics To Be Covered In This Post What I did this week Pushing code and bug fixes to Gerrit. Added flag in config file to start control panel in full-screen mode. Added persistent user configurations. Updated documentation and Readme file. Created the first draft of the final GSoC report. What I plan to do next # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit."><meta itemprop="datePublished" content="2023-10-28T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-10-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="395"><meta itemprop="image" content="https://suchinton.github.io/images/WPR/Week22/GSOC%20Report%20IMG.png">
-<meta itemprop="keywords" content="" />
-</head><body class="flex relative h-full min-h-screen"><aside
-class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
-<p class="font-bold mb-5 flex items-center gap-2">
-    <button aria-label="Close sidebar"
-      class="md:hidden menu-trigger-close p-1 rounded text-slate-800 dark:text-slate-50 hover:bg-slate-200 dark:hover:bg-slate-700"><svg class="h-6 w-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-  fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" />
-  <line x1="18" y1="6" x2="6" y2="18" />
-  <line x1="6" y1="6" x2="18" y2="18" />
-</svg></button>
-    <a href="https://suchinton.github.io/" class="px-2">
-      <span>Suchinton&#39;s Hub 🚀</span>
+<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Suchinton&rsquo;s Hub</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/articles/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Blog
+    </p>
+</a>
+
+
+            
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    
+    <a  href="/portfolio/"   class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
+      Portfolio
     </a>
-    <button aria-label="Toggle dark mode"
-      class="dark-mode-toggle p-2 rounded border dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700"><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-  fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" />
-  <circle cx="12" cy="12" r="4" />
-  <path d="M3 12h1M12 3v1M20 12h1M12 20v1M5.6 5.6l.7 .7M18.4 5.6l-.7 .7M17.7 17.7l.7 .7M6.3 17.7l-.7 .7" />
-</svg></button>
-  </p>
+    <span>
+      
 
-  
-  <ul class="list-none flex flex-col gap-1">
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/" >
-        <span>Home</span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  text-slate-400 font-semibold pb-0 pl-1 border-b cursor-default pointer-events-none "
-        href="#" >
-        <span>Content</span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/about" >
-        <span>About</span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles" >
-        <span>GSoC &#39;23 Blog</span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/portfolio" >
-        <span>Portfolio</span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  text-slate-400 font-semibold pb-0 pl-1 border-b cursor-default pointer-events-none "
-        href="#" >
-        <span>GSoC links</span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="https://drive.google.com/file/d/1KM2ecIOdOfODWEzUHujxUlFb_73a9f91/view?usp=share_link"  target="_blank"
-        rel="noopener" >
-        <span>Acceptance Letter</span>
-        
-        <span><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-  fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" />
-  <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-  <line x1="10" y1="14" x2="20" y2="4" />
-  <polyline points="15 4 20 4 20 9" />
-</svg></span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="https://drive.google.com/file/d/1vix6iTDAy-HU---iU0tdi86pUtZtE-_t/view?usp=sharing"  target="_blank"
-        rel="noopener" >
-        <span>Proposal</span>
-        
-        <span><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-  fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" />
-  <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-  <line x1="10" y1="14" x2="20" y2="4" />
-  <polyline points="15 4 20 4 20 9" />
-</svg></span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="https://github.com/suchinton/AGL_Demo_Control_Panel"  target="_blank"
-        rel="noopener" >
-        <span>Project</span>
-        
-        <span><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-  fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" />
-  <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-  <line x1="10" y1="14" x2="20" y2="4" />
-  <polyline points="15 4 20 4 20 9" />
-</svg></span>
-        
-      </a>
-    </li>
-    
-  </ul>
-
-  <div class="flex-1"></div>
-
-  
-
-  <ul class="list-none flex flex-wrap justify-center gap-1 pt-2 border-t border-slate-200 dark:border-slate-600">
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="https://github.com/suchinton" target="_blank" rel="noopener noreferrer">
-        <span class="sr-only">GitHub</span>
-        
-        <span><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-  stroke-linecap="round" stroke-linejoin="round">
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
   <path
-    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-</svg></span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="https://www.linkedin.com/in/suchinton-chakravarty/" target="_blank" rel="noopener noreferrer">
-        <span class="sr-only">LinkedIn</span>
-        
-        <span><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-  stroke-linecap="round" stroke-linejoin="round">
-  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-  <rect x="2" y="9" width="4" height="12" />
-  <circle cx="4" cy="4" r="2" />
-</svg></span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="https://www.instagram.com/suchinton_never_/" target="_blank" rel="noopener noreferrer">
-        <span class="sr-only">Instagram</span>
-        
-        <span><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-  stroke-linecap="round" stroke-linejoin="round">
-  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-</svg></span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="mailto:suchinton.2001@gmail.com" target="_blank" rel="noopener noreferrer">
-        <span class="sr-only">Email</span>
-        
-        <span><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-  fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" />
-  <rect x="3" y="5" width="18" height="14" rx="2" />
-  <polyline points="3 7 12 13 21 7" />
-</svg></span>
-        
-      </a>
-    </li>
-    
-    <li>
-      <a class="px-2 py-1.5 rounded-md text-sm block text-slate-800 dark:text-slate-50  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/index.xml" target="_blank" rel="noopener noreferrer">
-        <span class="sr-only">RSS</span>
-        
-        <span><svg class="h-4 w-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-  fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" />
-  <circle cx="5" cy="19" r="1" />
-  <path d="M4 4a16 16 0 0 1 16 16" />
-  <path d="M4 11a9 9 0 0 1 9 9" />
-</svg></span>
-        
-      </a>
-    </li>
-    
-  </ul>
-</aside>
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
 
-<div
-  class="fixed bg-slate-700 bg-opacity-5 transition duration-200 ease-in-out inset-0 z-10 pointer-events-auto md:hidden left-0 top-0 w-full h-full hidden menu-overlay">
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/portfolio/gsoc_2023/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            GSoC 2023
+          </p>
+        </a>
+        
+        <a href="/portfolio/fossee/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            FOSSEE
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
 </div>
 
-<button aria-label="Toggle Sidebar"
-  class="md:hidden absolute top-3 left-3 z-10 menu-trigger p-1 rounded text-slate-800 dark:text-slate-50 hover:bg-slate-100"><svg class="h-6 w-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-  fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" />
-  <line x1="4" y1="6" x2="20" y2="6" />
-  <line x1="4" y1="12" x2="20" y2="12" />
-  <line x1="4" y1="18" x2="16" y2="18" />
-</svg></button>
-<div class="flex-1">
 
 
+            
+            
+
+            
 
 
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
 
-<div class="flex h-screen relative">
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
 
-  <section
-    class="will-change-transform transform transition-transform -translate-x-[200%] absolute top-0 left-0 lg:relative
-    lg:translate-x-0 lg:min-w-[400px] lg:w-1/4 h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area">
-    
-    
-    <a href="https://suchinton.github.io/articles/">
-      <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">GSoC &#39;23 Blog</h2>
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" for="menu-controller" class="block">
+            <input type="checkbox" id="menu-controller" class="hidden" />
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li>
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/articles/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Blog
+        </p>
     </a>
-<label class="mb-2 block px-2">
-  <span></span>
-  <input type="text" placeholder="Search articles" class="searchInput bg-white rounded px-2 py-1 w-full border" />
-</label>
+</li>
+
+
+
+                    
+
+                     
+  <li class="mt-1">
+    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Portfolio
+        </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/portfolio/gsoc_2023/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            GSoC 2023
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/portfolio/fossee/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            FOSSEE
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
 <script>
-  const searchElt = document.querySelector('.searchInput')
-  if (searchElt) {
-    searchElt.addEventListener('input', evt => {
-      const value = evt.target.value || '';
-
-      const articles = document.querySelectorAll('.article')
-      if (!value) {
-        articles.forEach(article => article.classList.remove('hidden'))
-      } else {
-        articles.forEach(article => article.classList.add('hidden'))
-        Array.from(articles).filter(article => {
-          const title = article.querySelector('h3')
-          if (!title) return false;
-
-          return title.textContent.toLowerCase().includes(value.toLowerCase())
-        }).forEach(article => article.classList.remove('hidden'))
-      }
-    })
-  }
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
 </script>
-<div class="space-y-2.5">
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
       
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/firstpost/">
+
+
+<article>
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >Homepage</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/articles/"
+      >GSoC &#39;23 Blog</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/articles/week-22/"
+      >Week 22 Progress Report</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Week 22 Progress Report
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2023-10-28 00:00:00 &#43;0000 UTC">28 October 2023</time><span class="px-2 text-primary-500">&middot;</span><span>400 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Suchinton
+    </div>
+    
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
+    
+
+    
+
+    
+
+    
+    <div class="mb-5"></div>
+    
+  
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+
+      <div class="min-w-0 min-h-0 max-w-fit">
         
         
-        <h3 class="text-lg font-semibold mb-0.5">Firstpost</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
+
+
+        <div class="article-content max-w-prose mb-20">
           
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/final-report/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Final-Report/Final.png" alt="GSoC 2023 Final Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">GSoC 2023 Final Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          Introduction This report is a requirement of the Final evaluation phase of the Google Summer of Code the Google program. I worked with the Linux Foundation, under Automotive Grade Linux to develop a Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val
-You can find the proposal for this project here.
-The Linux Foundation is a nonprofit consortium dedicated to fostering the growth of Linux. Automotive Grade Linux is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  bg-slate-900 dark:bg-slate-700 text-slate-50 "
-        href="/articles/week-22/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week22/GSOC%20Report%20IMG.png" alt="Week 22 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 22 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Pushing code and bug fixes to Gerrit. Added flag in config file to start control panel in full-screen mode. Added persistent user configurations. Updated documentation and Readme file. Created the first draft of the final GSoC report. What I plan to do next # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-21/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week21/GSOC%20Report%20IMG.png" alt="Week 21 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 21 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Pushing code and bug fixes to Gerrit Tweaked UI to simplify and make text more legible. Fixed SVG icon scaling issues in the dashboard (Updated Docker file to resolve dependencies) Refactored subscription updates (UI updates are blocked when sending values to Kuksa). Update documentation and Readme file. What I plan to do next # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-20/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week20/GSOC%20Report%20IMG.png" alt="Week 20 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 20 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Pushing code to Gerrit. Added drop-down in settings to pick configs. Refactored config.py and settings.py to handle user preferences better. What I plan to do next # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit. The following changes have been pushed so far:
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-19/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week19/GSOC%20Report%20IMG.png" alt="Week 19 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 19 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Pushing code to Gerrit. Refactor acceleration and script for IC page. Add compatibility for Databroker. What I plan to do next # Pushing to Gerrit This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit. The following changes have been pushed so far:
-Changes pushed so far:
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-18/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week18/GSOC%20Report%20IMG.png" alt="Week 18 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 18 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Pushing code to Gerrit. Simplified settings page. Add compatibility for Databroker. Refactor acceleration and script for IC page. What I plan to do next # Pushing to Gerrit This week saw major documentation work for the AGL Demo Control Panel and partial commits were made for review on Gerrit.
-Changes pushed so far:
-29237: Update UI files | https://gerrit.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-17/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week17/GSOC%20Report%20IMG.png" alt="Week 17 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 17 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Pushing code to Gerrit. Fixing scaling of Dashboard icons. Completed initial draft of documentation. What I plan to do next # Pushing to Gerrit This week saw major documentation work for the AGL Demo Control Panel and partial commits were made for review on Gerrit.
-Changes pushed so far:
-29237: Update UI files | https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29237 29243: agl-demo-control-panel: Upload Draft 1 documentation | https://gerrit.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-16/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week16/GSOC%20Report%20IMG.png" alt="Week 16 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 16 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Pushed partial code to Gerrit for review. Completed initial documentation. Resolved minor bugs and UI tweaks. Refactored code wherever needed. What I plan to do next # Pushing code to Gerrit This week saw major refactoring and documentation of the code for the AGL Demo Control Panel and partial commits were made for review on Gerrit.
-Changes pushed so far:
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-15/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week15/GSOC%20Report%20IMG.png" alt="Week 15 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 15 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation. Minor Adjustments to UI Simplified Settings Page. Refactoring the VSS subscription Module What I plan to do next # First draft of the &ldquo;AGL Demo Control Panel&rdquo; documentation. I started writing the initial draft of the documentation for AGL Demo Control Panel by following the steps provided in the official documentation of AGL.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-14/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week14/GSOC%20Report%20IMG.png" alt="Week 14 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 14 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Enabled Secure Mode Switched to Carbon icons. Animated Navigation of Control Panel What I plan to do next # Enable Secure Mode Till now, our testing of the AGL Demo Control Panel was being conducted in Insecure mode, i.e. SSL encryption was disabled when connecting to the server (had to run both with the --insecure flag).
-This week, I made progress in enabling secure communication between the Kuksa-val-server and the Kuksa-client by using the AGL-signed CA.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-13/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week13/GSOC%20Report%20IMG.png" alt="Week 13 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 13 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Subscribe to VSS signals for registering changes made on target. Refactored the toggle inputs as animated switches. Start working with Kuksa-client 0.4.0 What I plan to do next # Subscribing to VSS signals This week I added support for subscribing to VSS Signals for the IC and HVAC Pages such that any changes made to their values through a different interface will now also be reflected on the Control Panel without delay.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-12/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week12/GSOC%20Report%20IMG.png" alt="Week 12 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 12 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Created CAN interface using cannelloni Implemented the FeedCAN module. Added support for sending Steering wheel CAN messages. Created a test script for sending CAN frames using the USB CAN adapter. What I plan to do next # How to use cannelloni To test the AGL Demo Control Panel for sending CAN messages to the target machine, we can create a virtual CAN interface using cannelloni.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-11/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week11/GSOC%20Report%20IMG.png" alt="Week 11 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 11 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Tested the USB CAN adapters with hlcand on Raspberry Pi OS and PC. Minor UI changes changed the default font to ttf-Dejavu. What I plan to do next # Testing USB CAN Adapters Resources used, hlcand USB to CAN Analyzer Adapter can-utils Raspberry Pi 4 (Raspberry Pi OS) PC (Ubuntu 22.04) This week I tried using hlcand to set up the can0 interface between the Pi and my laptop but only got as far as setting up the interface.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-10/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week10/GSOC%20Report%20IMG.png" alt="Week 10 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 10 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Resolved the assets licenses and removed unused assets (icons). Fixed the window resizing issue. Increased the navigation button sizes. Added toggle button to switch between kuksa to CAN signals for Steering wheel controls What I plan to do next # Assets This week I resolved licenses for the various assets used in the project,
-fan.svg: fan.svg by Alpár-Etele Méder IC.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-9/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week9/GSOC%20Report%20IMG.png" alt="Week 9 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 9 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Refined the navigation bar Improved Acceleration function Dummy triggers for Steering Wheel controls What I plan to do next # Navigation Bar This week I switched the navigation bar from a vertical layout to a horizontal layout to make navigation more intuitive and accessible. I am currently working on revising the animation of the button sizes.
-# Acceleration Function I also revisited the acceleration function to include a shift up and shift down operation to change the gear ratios as the car accelerates, this helps sell the acceleration as more authentic.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-8/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week8/GSOC%20Report%20IMG.png" alt="Week 8 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 8 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Uploaded the repo to Gerrit as a patch set, link. Deprecated Navigation Page after discussion with mentors. Refactored QThread instance for feeding values to the kuksa server. Added option in settings to hide pages. Reviewed documentation for Python-can to enable Steering wheel controls. What I plan to do next # Pushing To Gerrit I was able to push all of my progress to Gerrit this week despite a few challenges, every time I would try to clone the agl-demo-control-panel repo, I would get the following message:
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-7/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week7/GSOC%20Report%20IMG.png" alt="Week 7 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 7 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Finalized Steering Wheel Layout Tested AGL_Control_Panel against AGL image on RPi 4 Added Installation script for Ubuntu/ Debian What I plan to do next # Finalized Steering Wheel Layout This week I was able to finalize the layout and VSS paths to be used for the Steering Wheel Page, this shall remain subject to further improvements and revisions.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-6/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week6/GSOC%20Report%20IMG.png" alt="Week 6 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 6 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Specified Steering wheel Controls Improved Settings page and error handling Default settings Improved Navigation Page Updated README and Troubleshooting steps What I plan to do next # Steering Wheel Controls This week I added the various signals for the Steering Wheel Controls, namely
-Volume Up: &ldquo;Vehicle.Cabin.SteeringWheel.Switches.VolumeUp&rdquo; Volume Down: &ldquo;Vehicle.Cabin.SteeringWheel.Switches.VolumeDown&rdquo; Volume Mute: &ldquo;Vehicle.Cabin.SteeringWheel.Switches.VolumeMute&rdquo; Next Track: &ldquo;Vehicle.Cabin.SteeringWheel.Switches.Next&rdquo; Previous Track: &ldquo;Vehicle.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-5/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week5/GSOC%20Report%20IMG.png" alt="Week 5 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 5 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Refactored the IC Acceleration function IC page script (Toggle) Initialized Steering wheel Signals Controls (Not yet functional) Navigation Page (Revised Style sheet and improved operations What I plan to do next # IC Acceleration Button This week I updated the Acceleration button to operate on a Pressed and Released event instead of the previously used Clicked event, this allows us to implement both Acceleration and Deceleration proportionally for the vehicle&rsquo;s Speed and the Engine RPM.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-4/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week4/GSOC%20Report%20IMG.png" alt="Week 4 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 4 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Added HVAC signals, limited to 4 Toggle for Secure and Insecure Mode Added animations for navigation and improved window handles New theme for UI Reading from the config file What I plan to do next # HVAC signals This week I started adding signal inputs for the HVAC page, currently only 4 VIS signals are supported as the demo apps have not been patched to support other signals and mostly unresponsive on the Qt5 &amp; Flutter images of AGL.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-3/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week3/GSOC%20Report%20IMG.png" alt="Week 3 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 3 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Added Settings Window to main Application Completed Support for IC Application Signals Added custom handles for window Uploaded GitHub Readme.md Building AGL-demo-platform Image What I plan to do next # AGL-Demo-Control-Panel Added Settings Window to main Application The settings window provides various options to configure the kuksa-client. functionalities are:
-Start Connection Create Network Bridge Reconnect Refresh Input IP Address Input JWT Token Path for Authorization Display Connection Status IC Kuksa Signals This week I improved the style sheet for the IC page to better integrate with the application.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-2/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week2/GSOC%20Report%20IMG.png" alt="Week 2 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 2 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository What I plan to do next # Settings Window This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application. Features of this module are as follows:
-Configure Kuksa-client Custom IP address JWT token path Toggle for Insecure mode Start/ Reconnect Kuksa-client Display Connection Status How Does it Work?
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/week-1/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/WPR/Week1/GSOC%20Report%20IMG.png" alt="Week 1 Progress Report" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">Week 1 Progress Report</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What I did this week Communication with Kuksa.val Skeleton code for GUI using PyQt5 Navigation widget for IC What I plan to do next # Communication With Kuksa.val Continuing with the progress made last week regarding communication with Kuksa-val-server using a bridged network, I tried to enable IP routing to make the traffic at 10.10.10.204 also accessible at localhost 127.0.0.1, but that did not work.
-        </div>
-      </a>
-      
-      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
-        href="/articles/community-bonding-period/">
-        
-        
-        <img class="rounded max-w-full mb-4" src="/images/CBP/CBP.png" alt="GSoC Community Bonding Period" />
-        
-        <h3 class="text-lg font-semibold mb-0.5">GSoC Community Bonding Period</h3>
-        <div
-          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
-          # Topics To Be Covered In This Post What is the Community bonding period? What I did the past month Challenges faced Community interactions What I plan to do next What is GSoC &amp; What Have I Been Up To During The CBP? Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005.
-        </div>
-      </a>
-      </div>
-    </section>
 
-  <div class="overflow-y-auto h-screen w-full">
-    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
-
-      
-      <h1 class="!mb-2">Week 22 Progress Report</h1>
-	  
-      <p class="text-sm text-slate-500 !mb-8"> Posted October 28, 2023
-		
-	  </p>
-      
-
-      
-      <img class="rounded max-w-full mx-auto mb-4" src="/images/WPR/Week22/GSOC%20Report%20IMG.png" alt="Week 22 Progress Report" />
-      
-
-      <h3 id="-topics-to-be-covered-in-this-post"># Topics To Be Covered In This Post</h3>
+<h3 class="relative group"># Topics To Be Covered In This Post 
+    <div id="-topics-to-be-covered-in-this-post" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-topics-to-be-covered-in-this-post" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
 <ul>
 <li>What I did this week
 <ul>
@@ -681,80 +638,295 @@ Configure Kuksa-client Custom IP address JWT token path Toggle for Insecure mode
 <li>What I plan to do next</li>
 </ul>
 <hr>
-<h2 id="-pushing-to-gerrit"># Pushing to Gerrit</h2>
+
+
+<h2 class="relative group"># Pushing to Gerrit 
+    <div id="-pushing-to-gerrit" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-pushing-to-gerrit" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
 <p>This week, major work was completed for the AGL Demo Control Panel and commits were made for review on Gerrit. The following changes and bug fixes were pushed this week:</p>
 <ul>
-<li>29291: agl-demo-control-panel: Fix Svg icons scaling on Dashboard | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29291"  target="_blank" rel="noopener" >https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29291</a> (merged)</li>
-<li>29300: agl-demo-control-panel: Fix circular import problem | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29300"  target="_blank" rel="noopener" >https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29300</a> (merged)</li>
-<li>29302: agl-demo-control-panel: Save user preferences for next session | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29302"  target="_blank" rel="noopener" >https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29302</a> (merged)</li>
-<li>29303: agl-demo-control-panel: Fix typo in docker installation script | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29303"  target="_blank" rel="noopener" >https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29303</a> (merged)</li>
-<li>29311: agl-demo-control-panel: Add Fullscreen / maximized option | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29311"  target="_blank" rel="noopener" >https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29311</a> (merged)</li>
-<li>29339: agl-demo-control-panel: Improve grpc connection | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29339"  target="_blank" rel="noopener" >https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29339</a></li>
+<li>29291: agl-demo-control-panel: Fix Svg icons scaling on Dashboard | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29291"   target="_blank">
+    https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/+/29291</a> (merged)</li>
+<li>29300: agl-demo-control-panel: Fix circular import problem | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29300"   target="_blank">
+    https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/+/29300</a> (merged)</li>
+<li>29302: agl-demo-control-panel: Save user preferences for next session | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29302"   target="_blank">
+    https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/+/29302</a> (merged)</li>
+<li>29303: agl-demo-control-panel: Fix typo in docker installation script | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29303"   target="_blank">
+    https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/+/29303</a> (merged)</li>
+<li>29311: agl-demo-control-panel: Add Fullscreen / maximized option | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29311"   target="_blank">
+    https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/+/29311</a> (merged)</li>
+<li>29339: agl-demo-control-panel: Improve grpc connection | <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29339"   target="_blank">
+    https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/+/29339</a></li>
 </ul>
-<h2 id="full-screen-mode">Full-screen Mode</h2>
+
+
+<h2 class="relative group">Full-screen Mode 
+    <div id="full-screen-mode" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#full-screen-mode" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
 <p>This week I added a flag in the default <code>config.ini</code> file to:</p>
 <ul>
 <li>Maximize the window at start up</li>
 <li>Hide the window controls since In the dedicated AGL and Docker image, the control panel will be the only application running, and it should not be possible to minimize or close it.</li>
 <li>Disable the curved window corners.  This avoids needing to worry about the background color showing up in the corners and potentially needing to get a custom Weston configuration file in place to avoid the default background.</li>
 </ul>
-<h2 id="user-preference">User Preference</h2>
+
+
+<h2 class="relative group">User Preference 
+    <div id="user-preference" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#user-preference" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
 <p>This week I also added the ability to save user preferences for the next session, thereby making the preferred configuration persist across sessions. The user preference is now saved in the format given below every time the user attempts a connection with the provided fields.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>   <span style="color:#bd93f9">1</span> [default]
-</span></span><span style="display:flex;"><span>   <span style="color:#bd93f9">2</span> preferred<span style="color:#ff79c6">-</span>config<span style="color:#ff79c6">=</span>user<span style="color:#ff79c6">-</span>session
-</span></span><span style="display:flex;"><span>   <span style="color:#bd93f9">3</span> fullscreen<span style="color:#ff79c6">-</span>mode<span style="color:#ff79c6">=</span>true
-</span></span><span style="display:flex;"><span>   <span style="color:#bd93f9">4</span> 
-</span></span><span style="display:flex;"><span>   <span style="color:#bd93f9">5</span> [user<span style="color:#ff79c6">-</span>session]
-</span></span><span style="display:flex;"><span>   <span style="color:#bd93f9">6</span> ip <span style="color:#ff79c6">=</span> 
-</span></span><span style="display:flex;"><span>   <span style="color:#bd93f9">7</span> port <span style="color:#ff79c6">=</span> 
-</span></span><span style="display:flex;"><span>   <span style="color:#bd93f9">8</span> protocol <span style="color:#ff79c6">=</span> 
-</span></span><span style="display:flex;"><span>   <span style="color:#bd93f9">9</span> insecure <span style="color:#ff79c6">=</span> 
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">10</span> tls_server_name <span style="color:#ff79c6">=</span> 
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">11</span> token <span style="color:#ff79c6">=</span> default
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">12</span> cacert <span style="color:#ff79c6">=</span> default
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">13</span> 
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">14</span> <span style="color:#6272a4"># [cutom-config-template]</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">15</span> <span style="color:#6272a4"># ip=&lt;ip address&gt;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">16</span> <span style="color:#6272a4"># port=&lt;port number&gt;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">17</span> <span style="color:#6272a4"># protocol=&lt;ws|grpc&gt;     # ws/grpc -&gt; kuksa-val-server, </span>
-</span></span><span style="display:flex;"><span>						      <span style="color:#6272a4"># grpc -&gt; databroker</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">18</span> <span style="color:#6272a4"># insecure=&lt;true|false&gt;  # Use insecure mode only if server</span>
-</span></span><span style="display:flex;"><span>							  <span style="color:#6272a4"># is also running in insecure mode</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">19</span> <span style="color:#6272a4"># cacert=&lt;default|/path/to/CA.pem&gt;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">20</span> <span style="color:#6272a4"># token=&lt;default|/path/to/token&gt;      </span>
-</span></span><span style="display:flex;"><span>  <span style="color:#bd93f9">21</span> <span style="color:#6272a4"># tls_server_name=&lt;name&gt;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">   <span class="mi">1</span> <span class="p">[</span><span class="n">default</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">   <span class="mi">2</span> <span class="n">preferred</span><span class="o">-</span><span class="n">config</span><span class="o">=</span><span class="n">user</span><span class="o">-</span><span class="n">session</span>
+</span></span><span class="line"><span class="cl">   <span class="mi">3</span> <span class="n">fullscreen</span><span class="o">-</span><span class="n">mode</span><span class="o">=</span><span class="n">true</span>
+</span></span><span class="line"><span class="cl">   <span class="mi">4</span> 
+</span></span><span class="line"><span class="cl">   <span class="mi">5</span> <span class="p">[</span><span class="n">user</span><span class="o">-</span><span class="n">session</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">   <span class="mi">6</span> <span class="n">ip</span> <span class="o">=</span> 
+</span></span><span class="line"><span class="cl">   <span class="mi">7</span> <span class="n">port</span> <span class="o">=</span> 
+</span></span><span class="line"><span class="cl">   <span class="mi">8</span> <span class="n">protocol</span> <span class="o">=</span> 
+</span></span><span class="line"><span class="cl">   <span class="mi">9</span> <span class="n">insecure</span> <span class="o">=</span> 
+</span></span><span class="line"><span class="cl">  <span class="mi">10</span> <span class="n">tls_server_name</span> <span class="o">=</span> 
+</span></span><span class="line"><span class="cl">  <span class="mi">11</span> <span class="n">token</span> <span class="o">=</span> <span class="n">default</span>
+</span></span><span class="line"><span class="cl">  <span class="mi">12</span> <span class="n">cacert</span> <span class="o">=</span> <span class="n">default</span>
+</span></span><span class="line"><span class="cl">  <span class="mi">13</span> 
+</span></span><span class="line"><span class="cl">  <span class="mi">14</span> <span class="c1"># [cutom-config-template]</span>
+</span></span><span class="line"><span class="cl">  <span class="mi">15</span> <span class="c1"># ip=&lt;ip address&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="mi">16</span> <span class="c1"># port=&lt;port number&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="mi">17</span> <span class="c1"># protocol=&lt;ws|grpc&gt;     # ws/grpc -&gt; kuksa-val-server, </span>
+</span></span><span class="line"><span class="cl">						      <span class="c1"># grpc -&gt; databroker</span>
+</span></span><span class="line"><span class="cl">  <span class="mi">18</span> <span class="c1"># insecure=&lt;true|false&gt;  # Use insecure mode only if server</span>
+</span></span><span class="line"><span class="cl">							  <span class="c1"># is also running in insecure mode</span>
+</span></span><span class="line"><span class="cl">  <span class="mi">19</span> <span class="c1"># cacert=&lt;default|/path/to/CA.pem&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="mi">20</span> <span class="c1"># token=&lt;default|/path/to/token&gt;      </span>
+</span></span><span class="line"><span class="cl">  <span class="mi">21</span> <span class="c1"># tls_server_name=&lt;name&gt;</span>
 </span></span></code></pre></div><hr>
-<h2 id="-what-next"># What Next?</h2>
+
+
+<h2 class="relative group"># What Next? 
+    <div id="-what-next" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-what-next" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
 <ul>
 <li>Issue bug fixes as required.</li>
 <li>Final submission of the GSoC project for evaluation.</li>
 <li>Finalize the final report for GSoC.</li>
 </ul>
 <hr>
-<p><a href="/articles/final-report" >GSoC Final Report →</a></p>
-<p><a href="/articles/week-21" >← Week 21 Report</a></p>
+<p><a href="/articles/final-report"  >
+    GSoC Final Report →</a></p>
+<p><a href="/articles/week-21"  >
+    ← Week 21 Report</a></p>
 
-    </article>
+        </div>
+                
+        
+
+        
+
+          
+      </div>
+     
+    
+     <script>
+        var oid = "views_articles\/Week-22.md"
+        var oid_likes = "likes_articles\/Week-22.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/articles/week-21/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Week 21 Progress Report</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-10-23 14:48:24 &#43;0530 IST">23 October 2023</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/articles/final-report/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >GSoC 2023 Final Report</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-10-31 00:00:00 &#43;0000 UTC">31 October 2023</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2024
+      Suchinton
+    </p>
+    
+
+    
+    
+
   </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
+  
+  
+</footer><div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="https://suchinton.github.io/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
 
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
 </div>
 
-
   </div>
-<script type="text/javascript" src="/main.js" defer></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8MTHF56VX"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-Z8MTHF56VX', { 'anonymize_ip': false });
-}
-</script>
-
 </body>
 
 </html>

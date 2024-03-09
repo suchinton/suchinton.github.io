@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://suchinton.github.io/sitemap.xml

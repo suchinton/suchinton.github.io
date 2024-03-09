@@ -1,103 +1,191 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
-    <loc>https://suchinton.github.io/articles/firstpost/</loc>
-    <lastmod>2024-01-14T21:37:49+05:30</lastmod>
-  </url><url>
     <loc>https://suchinton.github.io/articles/</loc>
-    <lastmod>2024-01-14T21:37:49+05:30</lastmod>
-  </url><url>
-    <loc>https://suchinton.github.io/</loc>
-    <lastmod>2024-01-14T21:37:49+05:30</lastmod>
-  </url><url>
+    <lastmod>2023-10-31T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/final-report/</loc>
     <lastmod>2023-10-31T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://suchinton.github.io/</loc>
+    <lastmod>2023-10-31T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-22/</loc>
     <lastmod>2023-10-28T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-21/</loc>
     <lastmod>2023-10-23T14:48:24+05:30</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-20/</loc>
     <lastmod>2023-10-16T14:34:21+05:30</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-19/</loc>
     <lastmod>2023-10-09T16:13:53+05:30</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-18/</loc>
     <lastmod>2023-09-27T14:39:31+05:30</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-17/</loc>
     <lastmod>2023-09-25T16:57:31+05:30</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-16/</loc>
     <lastmod>2023-09-16T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-15/</loc>
     <lastmod>2023-09-09T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-14/</loc>
     <lastmod>2023-09-02T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-13/</loc>
     <lastmod>2023-08-26T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-12/</loc>
     <lastmod>2023-08-19T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-11/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-10/</loc>
     <lastmod>2023-08-06T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-9/</loc>
     <lastmod>2023-07-30T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-8/</loc>
     <lastmod>2023-07-19T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-7/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-6/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-5/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-4/</loc>
     <lastmod>2023-06-23T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-3/</loc>
     <lastmod>2023-06-16T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-2/</loc>
     <lastmod>2023-06-09T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/week-1/</loc>
     <lastmod>2023-06-03T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/community-bonding-period/</loc>
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/about/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://suchinton.github.io/categories/</loc>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/portfolio/gsoc_2023/</loc>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/portfolio/</loc>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/portfolio/resume/</loc>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/portfolio/fossee/</loc>
-  </url><url>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/stack/</loc>
-  </url><url>
-    <loc>https://suchinton.github.io/tags/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

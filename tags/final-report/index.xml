@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Final Report on Suchinton&#39;s Hub</title>
+    <link>http://localhost:1313/tags/final-report/</link>
+    <description>Recent content in Final Report on Suchinton&#39;s Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
+    <lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/final-report/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSoC 2023 Final Report</title>
+      <link>http://localhost:1313/articles/final-report/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/final-report/</guid>
+      <description>Introduction # This report is a requirement of the Final evaluation phase of the Google Summer of Code the Google program.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articles/final-report/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

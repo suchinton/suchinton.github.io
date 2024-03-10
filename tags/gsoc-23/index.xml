@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GSoC &#39;23 on Suchinton&#39;s Hub</title>
+    <link>http://localhost:1313/tags/gsoc-23/</link>
+    <description>Recent content in GSoC &#39;23 on Suchinton&#39;s Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gsoc-23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 2 Progress Report</title>
+      <link>http://localhost:1313/articles/week-2/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/week-2/</guid>
+      <description># Topics To Be Covered In This Post # What I did this week Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository What I plan to do next # Settings Window # This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/articles/week-2/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

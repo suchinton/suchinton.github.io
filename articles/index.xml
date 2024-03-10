@@ -15,7 +15,7 @@
       
       <guid>https://suchinton.github.io/articles/final-report/</guid>
       <description>Introduction # This report is a requirement of the Final evaluation phase of the Google Summer of Code the Google program.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/final-report/feature.png" />
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       
       <guid>https://suchinton.github.io/articles/week-22/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Pushing code and bug fixes to Gerrit.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-22/feature.png" />
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       
       <guid>https://suchinton.github.io/articles/week-21/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Pushing code and bug fixes to Gerrit Tweaked UI to simplify and make text more legible.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-21/feature.png" />
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       
       <guid>https://suchinton.github.io/articles/week-20/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Pushing code to Gerrit.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-20/feature.png" />
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       
       <guid>https://suchinton.github.io/articles/week-19/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Pushing code to Gerrit.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-19/feature.png" />
     </item>
     
     <item>
@@ -65,7 +65,7 @@
       
       <guid>https://suchinton.github.io/articles/week-18/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Pushing code to Gerrit.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-18/feature.png" />
     </item>
     
     <item>
@@ -75,7 +75,7 @@
       
       <guid>https://suchinton.github.io/articles/week-17/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Pushing code to Gerrit.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-17/feature.png" />
     </item>
     
     <item>
@@ -85,7 +85,7 @@
       
       <guid>https://suchinton.github.io/articles/week-16/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Pushed partial code to Gerrit for review.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-16/feature.png" />
     </item>
     
     <item>
@@ -95,7 +95,7 @@
       
       <guid>https://suchinton.github.io/articles/week-15/</guid>
       <description># Topics To Be Covered In This Post # What I did this week First draft of the &amp;ldquo;AGL Demo Control Panel&amp;rdquo; documentation.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-15/feature.png" />
     </item>
     
     <item>
@@ -105,7 +105,7 @@
       
       <guid>https://suchinton.github.io/articles/week-14/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Enabled Secure Mode Switched to Carbon icons.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-14/feature.png" />
     </item>
     
     <item>
@@ -115,7 +115,7 @@
       
       <guid>https://suchinton.github.io/articles/week-13/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Subscribe to VSS signals for registering changes made on target.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-13/feature.png" />
     </item>
     
     <item>
@@ -125,7 +125,7 @@
       
       <guid>https://suchinton.github.io/articles/week-12/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Created CAN interface using cannelloni Implemented the FeedCAN module.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-12/feature.png" />
     </item>
     
     <item>
@@ -135,7 +135,7 @@
       
       <guid>https://suchinton.github.io/articles/week-11/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Tested the USB CAN adapters with hlcand on Raspberry Pi OS and PC.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-11/feature.png" />
     </item>
     
     <item>
@@ -145,7 +145,7 @@
       
       <guid>https://suchinton.github.io/articles/week-10/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Resolved the assets licenses and removed unused assets (icons).</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-10/feature.png" />
     </item>
     
     <item>
@@ -155,7 +155,7 @@
       
       <guid>https://suchinton.github.io/articles/week-9/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Refined the navigation bar Improved Acceleration function Dummy triggers for Steering Wheel controls What I plan to do next # Navigation Bar # This week I switched the navigation bar from a vertical layout to a horizontal layout to make navigation more intuitive and accessible.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-9/feature.png" />
     </item>
     
     <item>
@@ -165,7 +165,7 @@
       
       <guid>https://suchinton.github.io/articles/week-8/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Uploaded the repo to Gerrit as a patch set, link.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-8/feature.png" />
     </item>
     
     <item>
@@ -175,7 +175,7 @@
       
       <guid>https://suchinton.github.io/articles/week-7/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Finalized Steering Wheel Layout Tested AGL_Control_Panel against AGL image on RPi 4 Added Installation script for Ubuntu/ Debian What I plan to do next # Finalized Steering Wheel Layout # This week I was able to finalize the layout and VSS paths to be used for the Steering Wheel Page, this shall remain subject to further improvements and revisions.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-7/feature.png" />
     </item>
     
     <item>
@@ -185,7 +185,7 @@
       
       <guid>https://suchinton.github.io/articles/week-6/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Specified Steering wheel Controls Improved Settings page and error handling Default settings Improved Navigation Page Updated README and Troubleshooting steps What I plan to do next # Steering Wheel Controls # This week I added the various signals for the Steering Wheel Controls, namely</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-6/feature.png" />
     </item>
     
     <item>
@@ -195,7 +195,7 @@
       
       <guid>https://suchinton.github.io/articles/week-5/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Refactored the IC Acceleration function IC page script (Toggle) Initialized Steering wheel Signals Controls (Not yet functional) Navigation Page (Revised Style sheet and improved operations What I plan to do next # IC Acceleration Button # This week I updated the Acceleration button to operate on a Pressed and Released event instead of the previously used Clicked event, this allows us to implement both Acceleration and Deceleration proportionally for the vehicle&amp;rsquo;s Speed and the Engine RPM.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-5/feature.png" />
     </item>
     
     <item>
@@ -205,7 +205,7 @@
       
       <guid>https://suchinton.github.io/articles/week-4/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Added HVAC signals, limited to 4 Toggle for Secure and Insecure Mode Added animations for navigation and improved window handles New theme for UI Reading from the config file What I plan to do next # HVAC signals # This week I started adding signal inputs for the HVAC page, currently only 4 VIS signals are supported as the demo apps have not been patched to support other signals and mostly unresponsive on the Qt5 &amp;amp; Flutter images of AGL.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-4/feature.png" />
     </item>
     
     <item>
@@ -215,7 +215,7 @@
       
       <guid>https://suchinton.github.io/articles/week-3/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Added Settings Window to main Application Completed Support for IC Application Signals Added custom handles for window Uploaded GitHub Readme.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-3/feature.png" />
     </item>
     
     <item>
@@ -225,7 +225,7 @@
       
       <guid>https://suchinton.github.io/articles/week-2/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Implement Settings Window Initial support for Kuksa Signals Initializing the GitHub Repository What I plan to do next # Settings Window # This week I implemented the settings window to start/ configure an instance of kuksa-client to be used across the whole application.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-2/feature.png" />
     </item>
     
     <item>
@@ -235,7 +235,7 @@
       
       <guid>https://suchinton.github.io/articles/week-1/</guid>
       <description># Topics To Be Covered In This Post # What I did this week Communication with Kuksa.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/week-1/feature.png" />
     </item>
     
     <item>
@@ -245,7 +245,7 @@
       
       <guid>https://suchinton.github.io/articles/community-bonding-period/</guid>
       <description># Topics To Be Covered In This Post # What is the Community bonding period?</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/community-bonding-period/featured.png" />
     </item>
     
   </channel>

@@ -3,6 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://suchinton.github.io/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://suchinton.github.io/portfolio/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://suchinton.github.io/portfolio/resume/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/</loc>
     <lastmod>2023-10-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10,12 +28,6 @@
   </url>
   <url>
     <loc>https://suchinton.github.io/articles/final-report/</loc>
-    <lastmod>2023-10-31T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://suchinton.github.io/</loc>
     <lastmod>2023-10-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -71,6 +83,12 @@
   <url>
     <loc>https://suchinton.github.io/articles/week-14/</loc>
     <lastmod>2023-09-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://suchinton.github.io/portfolio/gsoc_2023/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -159,27 +177,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://suchinton.github.io/about/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://suchinton.github.io/portfolio/gsoc_2023/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://suchinton.github.io/portfolio/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://suchinton.github.io/portfolio/resume/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://suchinton.github.io/portfolio/fossee/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://suchinton.github.io/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

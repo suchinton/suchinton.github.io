@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GSoC 2024 on </title>
+    <link>https://suchinton.github.io/tags/gsoc-2024/</link>
+    <description>Recent content in GSoC 2024 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
+    <lastBuildDate>Sun, 02 Jun 2024 23:18:30 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/gsoc-2024/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 01 Progress Report</title>
+      <link>https://suchinton.github.io/articles/gsoc24/week-01/</link>
+      <pubDate>Sun, 02 Jun 2024 23:18:30 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/gsoc24/week-01/</guid>
+      <description># Topics To Be Covered In This Post # What I did this week Migrated from PyQt5 to PyQt6/PySide6.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/week-01/featured.png" />
+    </item>
+    
+    <item>
+      <title>GSoC 2024 Community Bonding Period</title>
+      <link>https://suchinton.github.io/articles/gsoc24/community-bonding-period/</link>
+      <pubDate>Mon, 20 May 2024 23:54:54 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/gsoc24/community-bonding-period/</guid>
+      <description># Topics To Be Covered In This Post # What is the Community bonding period?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/community-bonding-period/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,19 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Suchinton&#39;s Hub</title>
+    <title>Tags on </title>
     <link>https://suchinton.github.io/tags/</link>
-    <description>Recent content in Tags on Suchinton&#39;s Hub</description>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jun 2024 23:18:30 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AGL</title>
       <link>https://suchinton.github.io/tags/agl/</link>
-      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Jun 2024 23:18:30 +0530</pubDate>
       
       <guid>https://suchinton.github.io/tags/agl/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GSoC &#39;24 WPR</title>
+      <link>https://suchinton.github.io/tags/gsoc-24-wpr/</link>
+      <pubDate>Sun, 02 Jun 2024 23:18:30 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/tags/gsoc-24-wpr/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GSoC 2024</title>
+      <link>https://suchinton.github.io/tags/gsoc-2024/</link>
+      <pubDate>Sun, 02 Jun 2024 23:18:30 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/tags/gsoc-2024/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Linux Foundation</title>
+      <link>https://suchinton.github.io/tags/the-linux-foundation/</link>
+      <pubDate>Sun, 02 Jun 2024 23:18:30 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/tags/the-linux-foundation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Community Bonding Period</title>
+      <link>https://suchinton.github.io/tags/community-bonding-period/</link>
+      <pubDate>Mon, 20 May 2024 23:54:54 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/tags/community-bonding-period/</guid>
       <description></description>
       
     </item>
@@ -39,31 +79,11 @@
     </item>
     
     <item>
-      <title>The Linux Foundation</title>
-      <link>https://suchinton.github.io/tags/the-linux-foundation/</link>
-      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://suchinton.github.io/tags/the-linux-foundation/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>GSoC &#39;23 WPR</title>
       <link>https://suchinton.github.io/tags/gsoc-23-wpr/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/tags/gsoc-23-wpr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Community Bonding Period</title>
-      <link>https://suchinton.github.io/tags/community-bonding-period/</link>
-      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://suchinton.github.io/tags/community-bonding-period/</guid>
       <description></description>
       
     </item>

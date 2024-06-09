@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Sun, 02 Jun 2024 23:18:30 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/agl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jun 2024 18:38:31 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/agl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 02 Progress Report</title>
+      <link>https://suchinton.github.io/articles/gsoc24/week-02/</link>
+      <pubDate>Sun, 09 Jun 2024 18:38:31 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/gsoc24/week-02/</guid>
+      <description>Tasks Completed: # # Changes Pushed to Gerrit this Week # This week I made a few revisions to last week&amp;rsquo;s commit 29969: Port AGL Demo Control Panel to Qt6 based on code review in two patches:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/week-02/featured.png" />
+    </item>
+    
     <item>
       <title>Week 01 Progress Report</title>
       <link>https://suchinton.github.io/articles/gsoc24/week-01/</link>
       <pubDate>Sun, 02 Jun 2024 23:18:30 +0530</pubDate>
       
       <guid>https://suchinton.github.io/articles/gsoc24/week-01/</guid>
-      <description># Topics To Be Covered In This Post # What I did this week Migrated from PyQt5 to PyQt6/PySide6.</description>
+      <description># Migrated from PyQt5 to PyQt6/PySide6.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/week-01/featured.png" />
     </item>
     
@@ -24,7 +34,7 @@
       <pubDate>Mon, 20 May 2024 23:54:54 +0530</pubDate>
       
       <guid>https://suchinton.github.io/articles/gsoc24/community-bonding-period/</guid>
-      <description># Topics To Be Covered In This Post # What is the Community bonding period?</description>
+      <description>What is GSoC &amp;amp; What Have I Been Up To During The CBP?</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/community-bonding-period/featured.png" />
     </item>
     

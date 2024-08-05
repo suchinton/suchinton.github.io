@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Fri, 26 Jul 2024 23:29:15 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/agl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2024 17:07:16 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/agl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 10 Progress Report</title>
+      <link>https://suchinton.github.io/articles/gsoc24/week-10/</link>
+      <pubDate>Sat, 03 Aug 2024 17:07:16 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/gsoc24/week-10/</guid>
+      <description>Tasks Completed: # During the ninth week of my Google Summer of Code (GSoC) project, I made significant strides in implementing the CARLA-CAN-File playback feature within the Automotive Grade Linux (AGL) ecosystem.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/week-10/featured.png" />
+    </item>
+    
     <item>
       <title>Week 09 Progress Report</title>
       <link>https://suchinton.github.io/articles/gsoc24/week-09/</link>

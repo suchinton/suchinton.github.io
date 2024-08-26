@@ -7,19 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Sat, 17 Aug 2024 21:20:14 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/the-linux-foundation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Aug 2024 21:47:16 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/the-linux-foundation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Week 12</title>
+      <title>Week 13  Progress Report</title>
+      <link>https://suchinton.github.io/articles/gsoc24/week-13/</link>
+      <pubDate>Sat, 24 Aug 2024 21:47:16 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/gsoc24/week-13/</guid>
+      <description>Tasks Completed: # During the thirteenth week of my Google Summer of Code (GSoC) project, I continued working on refactoring developing the UI elements and the Keypad features for the AGL-Demo-Control-Panel.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/week-13/featured.png" />
+    </item>
+    
+    <item>
+      <title>Week 12  Progress Report</title>
       <link>https://suchinton.github.io/articles/gsoc24/week-12/</link>
       <pubDate>Sat, 17 Aug 2024 21:20:14 +0530</pubDate>
       
       <guid>https://suchinton.github.io/articles/gsoc24/week-12/</guid>
-      <description>Tasks Completed: # During the eleventh week of my Google Summer of Code (GSoC) project, I continued working on refactoring developing the UI elements and the Keypad features for the AGL-Demo-Control-Panel.</description>
+      <description>Tasks Completed: # During the twelfth week of my Google Summer of Code (GSoC) project, I continued working on refactoring developing the UI elements and the Keypad features for the AGL-Demo-Control-Panel.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/week-12/featured.png" />
     </item>
     
     <item>
-      <title>Week 11</title>
+      <title>Week 11  Progress Report</title>
       <link>https://suchinton.github.io/articles/gsoc24/week-11/</link>
       <pubDate>Sun, 11 Aug 2024 10:02:15 +0530</pubDate>
       

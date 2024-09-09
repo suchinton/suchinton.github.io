@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Sun, 01 Sep 2024 12:55:00 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/gsoc-2024/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Sep 2024 17:02:59 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/gsoc-2024/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 15 Progress Report</title>
+      <link>https://suchinton.github.io/articles/gsoc24/week-15/</link>
+      <pubDate>Sun, 08 Sep 2024 17:02:59 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/gsoc24/week-15/</guid>
+      <description>Tasks Completed: # During the fifteenth week of my Google Summer of Code (GSoC) project, I continued working on refactoring developing the UI elements and the Keypad features for the AGL-Demo-Control-Panel.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/week-15/featured.png" />
+    </item>
+    
     <item>
       <title>Week 14 Progress Report</title>
       <link>https://suchinton.github.io/articles/gsoc24/week-14/</link>

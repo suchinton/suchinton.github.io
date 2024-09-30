@@ -4,13 +4,19 @@
 
   <url>
     <loc>https://suchinton.github.io/articles/</loc>
-    <lastmod>2024-09-22T17:08:54+05:30</lastmod>
+    <lastmod>2024-09-29T08:31:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://suchinton.github.io/</loc>
-    <lastmod>2024-09-22T17:08:54+05:30</lastmod>
+    <lastmod>2024-09-29T08:31:42+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://suchinton.github.io/articles/gsoc24/week-18/</loc>
+    <lastmod>2024-09-29T08:31:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

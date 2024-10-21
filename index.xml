@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Sun, 13 Oct 2024 15:18:11 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Oct 2024 15:18:11 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 21</title>
+      <link>https://suchinton.github.io/articles/gsoc24/week-21/</link>
+      <pubDate>Sun, 20 Oct 2024 15:18:11 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/gsoc24/week-21/</guid>
+      <description>Tasks Completed: # During the twenty-first week of my Google Summer of Code (GSoC) project, I pushed the last changes for AGL-Demo-Control-Panel to.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/week-21/featured.png" />
+    </item>
+    
     <item>
       <title>Week 20</title>
       <link>https://suchinton.github.io/articles/gsoc24/week-20/</link>

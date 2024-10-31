@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Sun, 27 Oct 2024 14:59:04 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Oct 2024 14:59:51 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSoC2024 Final Report</title>
+      <link>https://suchinton.github.io/articles/gsoc24/gsoc2024-final-report/</link>
+      <pubDate>Sun, 27 Oct 2024 14:59:51 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/articles/gsoc24/gsoc2024-final-report/</guid>
+      <description>Introduction # This report is a requirement of the Final evaluation phase of the Google Summer of Code 2024 the Google program.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/gsoc2024-final-report/featured.png" />
+    </item>
+    
     <item>
       <title>Week 22</title>
       <link>https://suchinton.github.io/articles/gsoc24/week-22/</link>

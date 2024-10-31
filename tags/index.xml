@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Sun, 27 Oct 2024 14:59:04 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Oct 2024 14:59:51 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AGL</title>
       <link>https://suchinton.github.io/tags/agl/</link>
-      <pubDate>Sun, 27 Oct 2024 14:59:04 +0530</pubDate>
+      <pubDate>Sun, 27 Oct 2024 14:59:51 +0530</pubDate>
       
       <guid>https://suchinton.github.io/tags/agl/</guid>
       <description></description>
@@ -21,7 +21,7 @@
     <item>
       <title>GSoC &#39;24 WPR</title>
       <link>https://suchinton.github.io/tags/gsoc-24-wpr/</link>
-      <pubDate>Sun, 27 Oct 2024 14:59:04 +0530</pubDate>
+      <pubDate>Sun, 27 Oct 2024 14:59:51 +0530</pubDate>
       
       <guid>https://suchinton.github.io/tags/gsoc-24-wpr/</guid>
       <description></description>
@@ -31,7 +31,7 @@
     <item>
       <title>GSoC 2024</title>
       <link>https://suchinton.github.io/tags/gsoc-2024/</link>
-      <pubDate>Sun, 27 Oct 2024 14:59:04 +0530</pubDate>
+      <pubDate>Sun, 27 Oct 2024 14:59:51 +0530</pubDate>
       
       <guid>https://suchinton.github.io/tags/gsoc-2024/</guid>
       <description></description>
@@ -39,9 +39,19 @@
     </item>
     
     <item>
+      <title>GSoC Final Report</title>
+      <link>https://suchinton.github.io/tags/gsoc-final-report/</link>
+      <pubDate>Sun, 27 Oct 2024 14:59:51 +0530</pubDate>
+      
+      <guid>https://suchinton.github.io/tags/gsoc-final-report/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>The Linux Foundation</title>
       <link>https://suchinton.github.io/tags/the-linux-foundation/</link>
-      <pubDate>Sun, 27 Oct 2024 14:59:04 +0530</pubDate>
+      <pubDate>Sun, 27 Oct 2024 14:59:51 +0530</pubDate>
       
       <guid>https://suchinton.github.io/tags/the-linux-foundation/</guid>
       <description></description>
@@ -64,16 +74,6 @@
       <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/tags/gsoc-2023/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>GSoC Final Report</title>
-      <link>https://suchinton.github.io/tags/gsoc-final-report/</link>
-      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://suchinton.github.io/tags/gsoc-final-report/</guid>
       <description></description>
       
     </item>

@@ -101,7 +101,7 @@
     "keywords": ["GSoC 2024","AGL","The Linux Foundation","GSoC '24 WPR","GSoC Final Report"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "858"
+    "wordCount": "840"
   }]
   </script>
 
@@ -142,6 +142,13 @@
 
 
 
+
+    
+    <script defer src="/lib/packery/packery.pkgd.min.js" integrity=""></script>
+
+    
+    
+    <script type="text/javascript" src="/js/shortcodes/gallery.min.9b4cb28f931ed922c26fb9b2510c2debb370f6a63305050c2af81740b2919883715e24efbbdf3a081496718ec751df3a72729d4d0bc71d6071297563a97ce1ee.js" integrity="sha512-m0yyj5Me2SLCb7myUQwt67Nw9qYzBQUMKvgXQLKRmINxXiTvu986CBSWcY7HUd86cnKdTQvHHWBxKXVjqXzh7g=="></script>
 
 
 
@@ -676,7 +683,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-27 14:59:51 &#43;0530 IST">27 October 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-10-27 14:59:51 &#43;0530 IST">27 October 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -935,7 +942,8 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#project-overview">Project Overview</a>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#demo-video">Demo Video</a>
       <ul>
         <li><a href="#-source-code--documentation"># Source Code &amp; Documentation</a></li>
         <li><a href="#-deliverables"># Deliverables</a></li>
@@ -968,7 +976,8 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#project-overview">Project Overview</a>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#demo-video">Demo Video</a>
       <ul>
         <li><a href="#-source-code--documentation"># Source Code &amp; Documentation</a></li>
         <li><a href="#-deliverables"># Deliverables</a></li>
@@ -1042,7 +1051,7 @@
     </span>        
     
 </h2>
-<p>This report is a requirement of the Final evaluation phase of the <a href="https://summerofcode.withgoogle.com/" target="_blank">Google Summer of Code 2024</a> the Google program. I worked with the Linux Foundation, under <a href="https://www.automotivelinux.org/" target="_blank">Automotive Grade Linux</a> to develop a <a href="https://summerofcode.withgoogle.com/programs/2024/projects/WxbmtPoG" target="_blank">Extend AGL&rsquo;s Demo Control Panel</a></p>
+<p>This report is a requirement of the Final evaluation phase of the <a href="https://summerofcode.withgoogle.com/" target="_blank">Google Summer of Code 2024</a> the Google program. I worked with the Linux Foundation, under <a href="https://www.automotivelinux.org/" target="_blank">Automotive Grade Linux</a> to <a href="https://summerofcode.withgoogle.com/programs/2024/projects/WxbmtPoG" target="_blank">Extend AGL&rsquo;s Demo Control Panel</a>, which was my contribution during <strong>GSoC 2023</strong> under the GSoC project <em><a href="https://summerofcode.withgoogle.com/archive/2023/projects/4GykHUGj" target="_blank">Qt5 Application to Visualise/ Simulate CAN bus traffic using Kuksa.val</a></em></p>
 <p>You can find the proposal for this year&rsquo;s project <a href="https://summerofcode.withgoogle.com/media/user/7727eb0be3f8/proposal/gAAAAABnHxuXdDuvhsW6_aP6iKY8t1otSUNLBJ1gvQ-SKH2FjxgMUrjpuijuLQJUKFzMdabMo-UBjjVbpSa0uaiw-uxQ-2lH0d9VVUtDB-4iuD49uol7-Ek=.pdf" target="_blank">here</a>.</p>
 <p><a href="https://www.linuxfoundation.org/" target="_blank">The Linux Foundation</a> is a nonprofit consortium dedicated to fostering the growth of Linux. <a href="https://www.automotivelinux.org/" target="_blank">Automotive Grade Linux</a> is an open-source project hosted by The Linux Foundation that is building an open operating system and framework for automotive applications.</p>
 <hr>
@@ -1065,20 +1074,35 @@
     </figure>
 </p>
 <p>The objective of this year&rsquo;s project was to build upon my last year&rsquo;s contribution to <strong>Extend AGL&rsquo;s Demo Control Panel</strong>. The application developed allows the end-users to emit signals using the kuksa-client SDK and Python-can to visualize and interact with AGL Demo applications, such as the IC, IVI, HVAC, and the Green Machine, that display CAN data through Kuksa.val.</p>
-<p>This year&rsquo;s project focused on:</p>
-<ul>
-<li>Porting the app from Qt5 to Qt6 framework.</li>
-<li>Adding better QML widgets/ animations for gauges and spin-wheel inputs.</li>
-<li>Adding file playback (e.g. for CARLA recordings)</li>
-<li>Visualizing signals (real-time and playback)</li>
-<li>Adding New Controls and Keypad Features
-<ul>
-<li>IC keypad feature</li>
-<li>Power-control feature</li>
-</ul>
-</li>
-<li>Updating documentation</li>
-</ul>
+
+
+<h2 class="relative group">Demo Video 
+    <div id="demo-video" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#demo-video" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<video src="./Demo.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
+</video>
+
+
+<div id="gallery-09200d8254df444369b5654ba1f243ba" class="gallery">
+  
+  <img src="Dashboard.png" class="grid-w50" />
+  <img src="IC1.png" class="grid-w50" />
+  <img src="IC2.png" class="grid-w33" />
+  <img src="HVAC.png" class="grid-w33" />
+  <img src="SC.png" class="grid-w33" />
+  <img src="Keypad.png" class="grid-w33" />
+  <img src="Settings_Page.png" class="grid-w33" />
+  <img src="CARLA_CAN.gif" class="grid-w33" /> 
+  <img src="PlaybackDemo.gif" class="grid-w100" />  
+
+</div>
 
 
 <h3 class="relative group"># Source Code &amp; Documentation 
@@ -1091,8 +1115,7 @@
     </span>        
     
 </h3>
-<p>→ Gerrit: <a href="https://gerrit.automotivelinux.org/gerrit/admin/repos/src/agl-demo-control-panel,general" target="_blank">agl-demo-control-panel</a></p>
-<p>→ GitHub: <a href="https://github.com/suchinton/AGL_Demo_Control_Panel" target="_blank">AGL_Demo_Control_Panel</a></p>
+<p>→ Code Hosted on Gerrit: <a href="https://gerrit.automotivelinux.org/gerrit/admin/repos/src/agl-demo-control-panel,general" target="_blank">agl-demo-control-panel</a></p>
 <p>→ Documentation: <a href="https://docs.automotivelinux.org/en/master/#06_Component_Documentation/09_AGL_Demo_Control_Panel/" target="_blank">AGL/documentation</a></p>
 
 
@@ -1107,7 +1130,16 @@
     
 </h3>
 <ul>
-<li>Building a modern Qt5 application using PyQt5/QML that can simulate CAN-Bus signals using kuksa.val.</li>
+<li>Porting the app from Qt5 to Qt6 framework.</li>
+<li>Adding better QML widgets/ animations for gauges and spin-wheel inputs.</li>
+<li>Adding file playback (e.g. for CARLA recordings)</li>
+<li>Visualizing signals (real-time and playback)</li>
+<li>Adding New Controls and Keypad Features
+<ul>
+<li>IC keypad feature</li>
+<li>Power-control feature</li>
+</ul>
+</li>
 <li>Integrate the application with the AGL Demo platform.</li>
 <li>Packaging and distribution of the Application.</li>
 <li>Update documentation pages based on work.</li>
@@ -1137,8 +1169,8 @@
     </span>        
     
 </h3>
-<p><a href="/articles/community-bonding-period">→ Community Bonding Period</a>: During the GSoC 2023 community bonding period, I had a fantastic learning experience. I got to know my GSoC mentors and the AGL community, familiarized myself with AGL tools, and set up my working environment. I also tackled some technical challenges and ventured into working with Kuksa-val-server, Kuksa-client, and AGL images. Overall, the community bonding period was a great start.</p>
-<p><a href="/articles/week-1">→ Coding Period</a>: The coding period of GSoC is a dedicated timeframe during which the accepted contributors work on their projects. The standard coding period is <strong>12 weeks</strong>. However, my mentors and I saw it fit to have a longer coding period of <strong>22 weeks</strong> to complete our <strong>Large-Scale project</strong>.</p>
+<p><a href="/articles/gsoc24/community-bonding-period">→ Community Bonding Period</a>: During the GSoC 2024 community bonding period, I had a fantastic learning experience. I got to re-connect with my GSoC mentors and the AGL community, I re-familiarized myself with AGL tools, and set up my working environment. I also tackled some technical challenges and ventured into working with CARLA, Qt6/QML, and AGL images. Overall, the community bonding period was a great start.</p>
+<p><a href="/articles/gsoc24/week-01">→ Coding Period</a>: The coding period of GSoC is a dedicated timeframe during which the accepted contributors work on their projects. The standard coding period is <strong>12 weeks</strong>. However, my mentors and I saw it fit to have a longer coding period of <strong>22 weeks</strong> to complete our <strong>Large-Scale project</strong>.</p>
 <p>During this period, I was able to:</p>
 <ul>
 <li>Write and submit my code to Gerrit/GitHub.</li>
@@ -1147,7 +1179,7 @@
 <li>Participate in the AGL and GSoC community. (<em>Thursdays</em>)</li>
 <li>Submit my work for mid-term and final evaluations.</li>
 </ul>
-<p>Below I have compiled all my Weekly Progress Reports for the duration of the coding period of <em>GSoC &lsquo;23</em>.</p>
+<p>Below I have compiled all my Weekly Progress Reports for the duration of the coding period of <em>GSoC &lsquo;24</em>.</p>
 <table>
 <thead>
 <tr>
@@ -1159,38 +1191,38 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="/articles/week-1">Week 1 </a></td>
-<td><a href="/articles/week-2">Week 2 </a></td>
-<td><a href="/articles/week-3">Week 3 </a></td>
-<td><a href="/articles/week-4">Week 4 </a></td>
+<td><a href="/articles/gsoc24/week-01">Week 1 </a></td>
+<td><a href="/articles/gsoc24/week-02">Week 2 </a></td>
+<td><a href="/articles/gsoc24/week-03">Week 3 </a></td>
+<td><a href="/articles/gsoc24/week-04">Week 4 </a></td>
 </tr>
 <tr>
-<td><a href="/articles/week-5">Week 5 </a></td>
-<td><a href="/articles/week-6">Week 6 </a></td>
-<td><a href="/articles/week-7">Week 7 </a></td>
-<td><a href="/articles/week-8">Week 8 </a></td>
+<td><a href="/articles/gsoc24/week-05">Week 5 </a></td>
+<td><a href="/articles/gsoc24/week-06">Week 6 </a></td>
+<td><a href="/articles/gsoc24/week-07">Week 7 </a></td>
+<td><a href="/articles/gsoc24/week-08">Week 8 </a></td>
 </tr>
 <tr>
-<td><a href="/articles/week-9">Week 9 </a></td>
-<td><a href="/articles/week-10">Week 10</a></td>
-<td><a href="/articles/week-11">Week 11</a></td>
-<td><a href="/articles/week-12">Week 12</a></td>
+<td><a href="/articles/gsoc24/week-09">Week 9 </a></td>
+<td><a href="/articles/gsoc24/week-10">Week 10</a></td>
+<td><a href="/articles/gsoc24/week-11">Week 11</a></td>
+<td><a href="/articles/gsoc24/week-12">Week 12</a></td>
 </tr>
 <tr>
-<td><a href="/articles/week-13">Week 13</a></td>
-<td><a href="/articles/week-14">Week 14</a></td>
-<td><a href="/articles/week-15">Week 15</a></td>
-<td><a href="/articles/week-16">Week 16</a></td>
+<td><a href="/articles/gsoc24/week-13">Week 13</a></td>
+<td><a href="/articles/gsoc24/week-14">Week 14</a></td>
+<td><a href="/articles/gsoc24/week-15">Week 15</a></td>
+<td><a href="/articles/gsoc24/week-16">Week 16</a></td>
 </tr>
 <tr>
-<td><a href="/articles/week-17">Week 17</a></td>
-<td><a href="/articles/week-18">Week 18</a></td>
-<td><a href="/articles/week-19">Week 19</a></td>
-<td><a href="/articles/week-20">Week 20</a></td>
+<td><a href="/articles/gsoc24/week-17">Week 17</a></td>
+<td><a href="/articles/gsoc24/week-18">Week 18</a></td>
+<td><a href="/articles/gsoc24/week-19">Week 19</a></td>
+<td><a href="/articles/gsoc24/week-20">Week 20</a></td>
 </tr>
 <tr>
-<td><a href="/articles/week-21">Week 21</a></td>
-<td><a href="/articles/week-22">Week 22</a></td>
+<td><a href="/articles/wgsoc24/week-21">Week 21</a></td>
+<td><a href="/articles/gsoc24/week-22">Week 22</a></td>
 <td></td>
 <td></td>
 </tr>
@@ -1209,14 +1241,14 @@
     
 </h3>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29339" target="_blank">29339:</a> agl-demo-control-panel: Improve gRPC Mode</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29311" target="_blank">29311:</a> agl-demo-control-panel: Add Fullscreen / maximized option</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29302" target="_blank">29302:</a> agl-demo-control-panel: Save user preferences for next session</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29291" target="_blank">29291:</a> agl-demo-control-panel: Fix Svg icons scaling on Dashboard</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29279" target="_blank">29279:</a> agl-demo-control-panel: Refactor Settings, Config and UI scaling</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29275" target="_blank">29275:</a> agl-demo-control-panel: Add installation steps for debian/RPiOS</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29270" target="_blank">29270:</a> agl-demo-control-panel: Add grpc support for databroker</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29060" target="_blank">29060:</a> Upload progress on AGL demo control panel in one batch</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/29969" target="_blank">29969:</a> Port AGL Demo Control Panel to Qt6</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/30049" target="_blank">30049</a>: Add Python Script to Convert CARLA data into CAN messages</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/30275" target="_blank">30275</a>: Add New Custom Gauges and CARLA playback refactored</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/30327" target="_blank">30327</a>: Update Carla Playback Mode</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/30401" target="_blank">30401</a>: Add Tire Pressure, Keypad elements and misc. UI Changes</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/AGL/meta-agl-demo/&#43;/30454" target="_blank">30454</a>: agl-demo-control-panel: Update dependency and Bump SRCREV</li>
+<li><input disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/&#43;/30456" target="_blank">30456</a>: Bug fixes for Control Panel</li>
+<li><input disabled="" type="checkbox"> <a href="https://gerrit.automotivelinux.org/gerrit/c/AGL/documentation/&#43;/30444" target="_blank">30444</a>: agl-demo-control-panel: Update Documentation</li>
 </ul>
 <hr>
 
@@ -1244,11 +1276,11 @@
     
 </h3>
 <ul>
-<li>I was able to learn about the OpenEmbedded Yocto Project and create layers and recipes for our specific application.</li>
-<li>I learnt how to create quality applications using <a href="https://www.qt.io/" target="_blank">Qt</a>, <a href="https://wiki.python.org/moin/PyQt" target="_blank">PyQt</a>.</li>
+<li>I was able to dive deeper into the OpenEmbedded Yocto Project and create layers and recipes for our specific application.</li>
+<li>I learnt how to create and port applications to <a href="https://www.qt.io/" target="_blank">Qt6</a>, <a href="https://wiki.python.org/moin/PyQt" target="_blank">PyQt</a> and <a href="https://doc.qt.io/qt-6/qmlapplications.html" target="_blank">QML</a>.</li>
 <li>Learnt about <a href="https://grpc.io/" target="_blank">gRPC</a> and <a href="https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/" target="_blank">WebSocket</a> and how they are implemented in Kuksa.val and its Python SDK.</li>
-<li>I had the opportunity to test my application and AGL images on a <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank">Raspberry Pi 4</a> kindly provided by my AGL mentors. I was also provided a pair of <a href="https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html" target="_blank">CAN to USB</a> adapters for testing CAN signals. While we ended up not using it for our demo it did help me learn more about CAN interfaces, Linux kernel modules, and Python-can.</li>
-<li>I was also able to test my application using the <a href="">agl-ivi-demo-control-panel</a> image on ARM, X86 using QEMU/KVM. Additionally, we also got a <a href="">docker image</a>  to work for the agl-demo-control-panel thanks to <a href="https://www.ics.com/author/lisandro-perez-meyer" target="_blank">Lisandro Pérez Meyer</a>.</li>
+<li>I had the opportunity to test my application and AGL images on a <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank">Raspberry Pi 4</a> kindly provided by my AGL mentors last year.</li>
+<li>I also had the opportunity to learn about the <a href="https://carla.org" target="_blank">CARLA Simulator</a>, a simulation platform developed from the ground up to support development, training, and validation of autonomous driving systems. Making use of its flexible APIs; I was able to provide the <strong>File Playback</strong> feature to the agl-demo-control-panel.</li>
 <li>I also learned a lot more about the Automotive Grade Linux organization, its development tools, workflow, and pipeline.</li>
 </ul>
 
@@ -1280,8 +1312,8 @@
     </span>        
     
 </h2>
-<p>I would like to express my gratitude to my mentors <a href="https://www.automotivelinux.org/blog/developer-showcase-jansimon-moller/" target="_blank">Jan-Simon Möller</a>, <a href="https://www.konsulko.com/about/meet-the-team#:~:text=extremely%20small%20systems.-,Scott%20Murray,-Principal%20Software%20Engineer" target="_blank">Scott Murray</a>, <a href="mailto:marius.vlad@collabora.com">Marius Vlad</a>, and <a href="https://www.automotivelinux.org/about/leadership/" target="_blank">Walt Miner</a> for mentoring me through GSoC and also to the whole AGL community for being so inclusive and friendly.</p>
-<p>It has been one of the best professional experiences that I have had this year. Learning about new tools and technologies, and working on an open-source project along with experienced developers from all over the world has been a great experience for me. I would love to continue working with AGL, improving my project, and whatever I feel that I can contribute to.</p>
+<p>I would like to express my gratitude to my mentors <a href="https://www.automotivelinux.org/blog/developer-showcase-jansimon-moller/" target="_blank">Jan-Simon Möller</a>, <a href="https://www.linkedin.com/in/justin-noel-95aa5b5/" target="_blank">Justin Noel</a>, <a href="https://www.konsulko.com/about/meet-the-team#:~:text=extremely%20small%20systems.-,Scott%20Murray,-Principal%20Software%20Engineer" target="_blank">Scott Murray</a>, <a href="mailto:marius.vlad@collabora.com">Marius Vlad</a>, and <a href="https://www.automotivelinux.org/about/leadership/" target="_blank">Walt Miner</a> and for mentoring me through another year of GSoC and also to the whole AGL community for being so inclusive and friendly.</p>
+<p>It has been one of the best professional experiences. Learning about new tools and technologies, and working on an open-source project along with experienced developers from all over the world has been a great experience for me. I would love to continue working with AGL, improving my project, and whatever I feel that I can contribute to.</p>
 
           
           

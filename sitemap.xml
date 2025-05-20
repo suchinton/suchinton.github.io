@@ -3,6 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://suchinton.github.io/portfolio/ciena/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://suchinton.github.io/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://suchinton.github.io/portfolio/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/articles/</loc>
     <lastmod>2024-10-27T14:59:51+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -10,12 +28,6 @@
   </url>
   <url>
     <loc>https://suchinton.github.io/articles/gsoc24/gsoc2024-final-report/</loc>
-    <lastmod>2024-10-27T14:59:51+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://suchinton.github.io/</loc>
     <lastmod>2024-10-27T14:59:51+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -71,6 +83,12 @@
   <url>
     <loc>https://suchinton.github.io/articles/gsoc24/week-14/</loc>
     <lastmod>2024-09-01T12:55:00+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://suchinton.github.io/portfolio/gsoc_2024/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -155,18 +173,6 @@
   <url>
     <loc>https://suchinton.github.io/articles/gsoc24/community-bonding-period/</loc>
     <lastmod>2024-05-20T23:54:54+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://suchinton.github.io/portfolio/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://suchinton.github.io/portfolio/resume/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

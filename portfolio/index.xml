@@ -6,16 +6,27 @@
     <description>Recent content in Portfolio on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>🚀 Suchinton Chakravarty - 2025</copyright>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
-      <title>Resume</title>
-      <link>https://suchinton.github.io/portfolio/resume/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <title>Ciena - Global Technical Support</title>
+      <link>https://suchinton.github.io/portfolio/ciena/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://suchinton.github.io/portfolio/resume/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/portfolio/resume/featured.png" />
+      <guid>https://suchinton.github.io/portfolio/ciena/</guid>
+      <description>What is GSoC?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/portfolio/ciena/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>GSoC &#39;24 The Linux Foundation @ Automotive Grade Linux (May - Nov 2024)</title>
+      <link>https://suchinton.github.io/portfolio/gsoc_2024/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/portfolio/gsoc_2024/</guid>
+      <description>What is GSoC?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/portfolio/gsoc_2024/featured.png" />
     </item>
     
     <item>

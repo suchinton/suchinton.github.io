@@ -6,8 +6,19 @@
     <description>Recent content in Homepage on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>:rocket: Suchinton Chakravarty - 2024</copyright>
-    <lastBuildDate>Sun, 27 Oct 2024 14:59:51 +0530</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>🚀 Suchinton Chakravarty - 2025</copyright>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://suchinton.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ciena - Global Technical Support</title>
+      <link>https://suchinton.github.io/portfolio/ciena/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/portfolio/ciena/</guid>
+      <description>What is GSoC?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/portfolio/ciena/featured.jpg" />
+    </item>
+    
     <item>
       <title>GSoC2024 Final Report</title>
       <link>https://suchinton.github.io/articles/gsoc24/gsoc2024-final-report/</link>
@@ -106,6 +117,16 @@
       <guid>https://suchinton.github.io/articles/gsoc24/week-14/</guid>
       <description>Tasks Completed: # During the fourteenth week of my Google Summer of Code (GSoC) project, I continued working on refactoring developing the UI elements and the Keypad features for the AGL-Demo-Control-Panel.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/week-14/featured.png" />
+    </item>
+    
+    <item>
+      <title>GSoC &#39;24 The Linux Foundation @ Automotive Grade Linux (May - Nov 2024)</title>
+      <link>https://suchinton.github.io/portfolio/gsoc_2024/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://suchinton.github.io/portfolio/gsoc_2024/</guid>
+      <description>What is GSoC?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/portfolio/gsoc_2024/featured.png" />
     </item>
     
     <item>
@@ -246,16 +267,6 @@
       <guid>https://suchinton.github.io/articles/gsoc24/community-bonding-period/</guid>
       <description>What is GSoC &amp;amp; What Have I Been Up To During The CBP?</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/articles/gsoc24/community-bonding-period/featured.png" />
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>https://suchinton.github.io/portfolio/resume/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://suchinton.github.io/portfolio/resume/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://suchinton.github.io/portfolio/resume/featured.png" />
     </item>
     
     <item>
@@ -524,7 +535,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://suchinton.github.io/about/</guid>
-      <description># I am a 4th-year student at Amity University Noida, pursuing a B.</description>
+      <description># I’m a Computer Science &amp;amp; Engineering graduate from Amity University Noida, passionate about Linux, open-source technologies, and software development.</description>
       
     </item>
     

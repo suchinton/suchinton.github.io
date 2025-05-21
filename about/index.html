@@ -101,7 +101,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "148"
+    "wordCount": "428"
   }]
   </script>
 
@@ -680,7 +680,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="0001-01-01T00:00:00&#43;00:00">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="0001-01-01T00:00:00&#43;00:00">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
@@ -863,7 +863,77 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-highlights--achievements">🏆 Highlights &amp; Achievements</a></li>
+    <li><a href="#-core-competencies">🧠 Core Competencies</a></li>
+    <li><a href="#-philosophy--learning">🧭 Philosophy &amp; Learning</a></li>
+    <li><a href="#-lets-connect">🤝 Let’s Connect</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-highlights--achievements">🏆 Highlights &amp; Achievements</a></li>
+    <li><a href="#-core-competencies">🧠 Core Competencies</a></li>
+    <li><a href="#-philosophy--learning">🧭 Philosophy &amp; Learning</a></li>
+    <li><a href="#-lets-connect">🤝 Let’s Connect</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -885,9 +955,135 @@
 </h1>
 <p>I’m a Computer Science &amp; Engineering graduate from <em><a href="https://www.amity.edu" target="_blank">Amity University Noida</a></em>, passionate about Linux, open-source technologies, and software development. I love building tools, experimenting with systems, and contributing to meaningful tech communities.</p>
 <p>I’m a two-time <em><a href="https://summerofcode.withgoogle.com" target="_blank">Google Summer of Code</a></em> contributor under <strong>Automotive Grade Linux (AGL), a The Linux Foundation project</strong>, where I developed Qt-based applications to simulate CAN Bus signals. I also interned as an SDE at <em><a href="https://fossee.in" target="_blank">FOSSEE, IIT Bombay</a></em>, contributing to the eSim platform, a free and open-source EDA tool, where I worked on installer tooling and Flatpak packaging.</p>
-<p>Currently, I work as a Global Technical Support Engineer at <em><a href="https://www.ciena.com" target="_blank">Ciena</a></em>, where I handle network configuration, issue triage, Linux environments, and support for telecom-grade systems.</p>
+<p>Currently, I work as a Global Technical Support Engineer at <em><a href="https://www.ciena.com" target="_blank">Ciena</a></em>, where I handle network configuration, triage issues and troubleshoot on Linux environments, and provide support for Network Management Systems.</p>
 <p>Outside of tech, I enjoy playing guitar, football, table tennis, and diving into science fiction and new discoveries.</p>
-<p>You can subscribe to my <em><a href="/articles/index.xml">RSS feed</a></em> to get quick updates on the same</p>
+<hr>
+
+
+<h2 class="relative group">🏆 Highlights &amp; Achievements 
+    <div id="-highlights--achievements" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-highlights--achievements" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>
+<p>🌍 <strong>Google Summer of Code 2023 &amp; 2024</strong><br>
+Contributed to AGL with gRPC &amp; Ethernet-based feature development on the YOCTO platform, recognized by the global open-source community.</p>
+</li>
+<li>
+<p>🎤 <strong>Conference Speaker</strong><br>
+Presented at <strong>AGL All Members Meet Japan 2024</strong> and <strong>Open Source Summit Japan 2023</strong> on Linux systems and embedded software.</p>
+</li>
+<li>
+<p>🧑‍💻 <strong>Internship at FOSSEE, IIT Bombay</strong><br>
+Improved the eSim EDA tool through installer enhancements and Flatpak packaging.</p>
+</li>
+<li>
+<p>📜 <strong>Certifications</strong></p>
+<ul>
+<li><em>Software Engineering</em> – Goldman Sachs Forage</li>
+<li><em>Joy of Computing with Python</em> – NPTEL, IIT Madras</li>
+</ul>
+</li>
+<li>
+<p>🎓 <strong>Academics</strong><br>
+Graduated with 82% in B.Tech (CSE) from Amity University, with practical exposure to multiple App development, Open-source Contribution, Embedded/ OS development, and networking technologies.</p>
+</li>
+</ul>
+<hr>
+
+
+<h2 class="relative group">🧠 Core Competencies 
+    <div id="-core-competencies" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-core-competencies" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<table>
+<thead>
+<tr>
+<th><strong>🔖 Category</strong></th>
+<th><strong>Skills</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>💻 Programming Languages</strong></td>
+<td><code>Python</code>, <code>C/C++</code>, <code>Bash</code>, <code>Java</code>, <code>SQL</code>, <code>Rust</code>, <code>Dart</code>, <code>Kotlin</code>, <code>Golang</code></td>
+</tr>
+<tr>
+<td><strong>🗄️ Databases &amp; Storage</strong></td>
+<td><code>Cassandra</code>, <code>Firebase</code>, <code>PostgreSQL</code>, <code>MySQL</code>, <code>SQLite</code>, <code>MongoDB</code></td>
+</tr>
+<tr>
+<td><strong>🐧 Linux &amp; Operating Systems</strong></td>
+<td><code>Linux Systems</code>, <code>Shell scripting</code>, <code>System optimization</code>, <code>Performance tuning</code>, <code>Kernel Modules</code></td>
+</tr>
+<tr>
+<td><strong>🌐 Networking</strong></td>
+<td><code>CAN Bus</code>, <code>Ethernet/LAN</code>, <code>TCP/IP</code>, <code>Network protocols</code>, <code>Linux network stack</code>, <code>Troubleshooting</code></td>
+</tr>
+<tr>
+<td><strong>⚙️ System &amp; Infrastructure</strong></td>
+<td><code>Docker</code>, <code>Kubernetes</code>, <code>Microservices</code>, <code>Infrastructure design</code>, <code>gRPC</code>, <code>Kafka</code></td>
+</tr>
+<tr>
+<td><strong>🔁 Version Control &amp; Collaboration</strong></td>
+<td><code>Git</code>, <code>Gerrit</code>, <code>Bitbucket</code>, <code>Github</code>, <code>GitLab</code></td>
+</tr>
+<tr>
+<td><strong>📟 Embedded Systems &amp; Emulation</strong></td>
+<td><code>Yocto Project</code>, <code>Raspberry Pi</code>, <code>AGL (Automotive Grade Linux)</code>, <code>QEMU</code>, <code>KVM</code>, <code>VMware</code>, <code>ESXi</code></td>
+</tr>
+<tr>
+<td><strong>🧱 Development Frameworks</strong></td>
+<td><code>Qt6/QML</code>, <code>PyQt5</code>, <code>Flutter</code>, <code>Django</code>, <code>NodeJS</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+
+<h2 class="relative group">🧭 Philosophy &amp; Learning 
+    <div id="-philosophy--learning" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-philosophy--learning" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>I believe in building things that last—and that starts with continuous learning. I stay curious by:</p>
+<ul>
+<li>Exploring new technologies and protocols</li>
+<li>Engaging with open-source communities and projectsd</li>
+<li>Sharing through documentation, and occasional tech talks</li>
+</ul>
+<hr>
+
+
+<h2 class="relative group">🤝 Let’s Connect 
+    <div id="-lets-connect" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-lets-connect" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>I&rsquo;m always open to interesting collaborations, learning opportunities, or a good conversation about Linux, embedded systems, open-source, and networking innovations.</p>
+<p>📡 You can follow updates via my <a href="/articles/index.xml">RSS feed</a>.</p>
 
           
           

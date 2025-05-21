@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://suchinton.github.io/about/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://suchinton.github.io/portfolio/ciena/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -329,11 +335,6 @@
   <url>
     <loc>https://suchinton.github.io/portfolio/fossee/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://suchinton.github.io/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
